@@ -1,0 +1,26 @@
+{
+  "asset_id": "player",
+  "concept_version": "v003",
+  "concept_sha256": "a650bcc8e2127f79cac77355d25306e53af760e7912a12767f02dd759da9b272",
+  "concept_verdict": "changes_requested",
+  "model_version": "v002",
+  "model_sha256": "237924c14082748246f93be4b568ea2602afa1bfbfbe7d2902b9911c557e3796",
+  "model_verdict": "approved_for_next_stage",
+  "license_status": "unknown",
+  "source_record_sha256": "02f4091ed1dd5b0446405378364ac8f96fa536bb809aedcaf43366b3722375c0",
+  "record_kind": "Portable extract of the historical production manifest; not a new validation run",
+  "validation": [
+    {
+      "import": "passed",
+      "instantiation": "passed",
+      "gpu": "passed",
+      "engine": "4.7.2-stable (official)"
+    },
+    {
+      "import": "passed",
+      "instantiation": "passed",
+      "gpu": "passed",
+      "engine": "4.7.2-stable (official)"
+    }
+  ]
+}

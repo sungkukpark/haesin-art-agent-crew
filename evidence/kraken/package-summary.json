@@ -1,0 +1,26 @@
+{
+  "asset_id": "kraken",
+  "concept_version": "v002",
+  "concept_sha256": "584173b050afae0975336c132cb6358599002926f19af18e14e55923f5d7aef5",
+  "concept_verdict": "approved_for_next_stage",
+  "model_version": "v003",
+  "model_sha256": "1c826bad3ee4f66eaf9dae702fd245617f172fd2c9902d52374c434651742bc5",
+  "model_verdict": "approved_for_next_stage",
+  "license_status": "unknown",
+  "source_record_sha256": "6accbad7a4b1d4bf9b98c4d8a4f7bb03b154c9edd1f159dff2b88adca937bee1",
+  "record_kind": "Portable extract of the historical production manifest; not a new validation run",
+  "validation": [
+    {
+      "import": "passed",
+      "instantiation": "passed",
+      "gpu": "passed",
+      "engine": "4.7.2-stable (official)"
+    },
+    {
+      "import": "passed",
+      "instantiation": "passed",
+      "gpu": "passed",
+      "engine": "4.7.2-stable (official)"
+    }
+  ]
+}

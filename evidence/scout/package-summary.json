@@ -1,0 +1,26 @@
+{
+  "asset_id": "scout",
+  "concept_version": "v002",
+  "concept_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+  "concept_verdict": "approved_for_next_stage",
+  "model_version": "v002",
+  "model_sha256": "5d8ffbf81eaea965ff8911163c84868c9665beaaf5db8456e18cca5724fa29c5",
+  "model_verdict": "approved_for_next_stage",
+  "license_status": "unknown",
+  "source_record_sha256": "13622e38a0599f4dc42aff00c7b027b22ac0d4599074a3ba606f7363769459fb",
+  "record_kind": "Portable extract of the historical production manifest; not a new validation run",
+  "validation": [
+    {
+      "import": "passed",
+      "instantiation": "passed",
+      "gpu": "passed",
+      "engine": "4.7.2-stable (official)"
+    },
+    {
+      "import": "passed",
+      "instantiation": "passed",
+      "gpu": "passed",
+      "engine": "4.7.2-stable (official)"
+    }
+  ]
+}

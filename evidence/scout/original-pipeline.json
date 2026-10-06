@@ -1,0 +1,1041 @@
+{
+  "schema_version": 1,
+  "batch_id": "fleet-001",
+  "asset_id": "scout",
+  "name": "정찰선",
+  "kind": "ship_character",
+  "requested_end_stage": "package",
+  "created_at": "2026-09-22T13:18:17.07911+02:00",
+  "status": "completed",
+  "source": {
+    "asset_id": "scout",
+    "kind": "ship_character",
+    "source_path": "D:\\wkspaces\\zerosketch\\haesin\\assets\\ships\\scout-v1.png",
+    "source_sha256": "d02c94c375ce99c08059ef5f6b55919661209e26ca99ddbdc0e49112aad36fb5",
+    "catalog_sha256_match": true,
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "source_copies": [
+      "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\inbox\\fleet-001-inputs-v001\\scout\\scout-v1.png",
+      "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\character-concept-artist\\inbox\\fleet-001-inputs-v001\\scout\\scout-v1.png",
+      "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-inputs-v001\\coordinator\\scout\\scout-v1.png"
+    ],
+    "role": "character-concept-artist",
+    "subject_dimensions": [
+      1024,
+      1536
+    ],
+    "subject_sha256": "d02c94c375ce99c08059ef5f6b55919661209e26ca99ddbdc0e49112aad36fb5",
+    "subject_copies": [
+      "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\inbox\\fleet-001-inputs-v001\\scout\\scout-v1.png",
+      "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\character-concept-artist\\inbox\\fleet-001-inputs-v001\\scout\\scout-v1.png",
+      "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-inputs-v001\\coordinator\\scout\\scout-v1.png"
+    ]
+  },
+  "style": {
+    "source_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\style\\source\\wanderburg_style_ref.png",
+    "sha256": "24023d939f647137904f7b8c135a09a893401f6a30953bbb0e213ee75eeea481",
+    "version": "v001",
+    "copies": [
+      "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\inbox\\fleet-001-inputs-v001\\style\\wanderburg_style_ref.png",
+      "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\character-concept-artist\\inbox\\fleet-001-inputs-v001\\style\\wanderburg_style_ref.png",
+      "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\monster-concept-artist\\inbox\\fleet-001-inputs-v001\\style\\wanderburg_style_ref.png",
+      "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-inputs-v001\\coordinator\\style\\wanderburg_style_ref.png"
+    ]
+  },
+  "user_override": null,
+  "preserve": [
+    "가늘고 빠른 소형 선체",
+    "노",
+    "기본 적 식별성"
+  ],
+  "family": null,
+  "refit_stage": null,
+  "owner": "coordinator",
+  "design_role": "character-concept-artist",
+  "stages": {
+    "source": {
+      "status": "completed",
+      "inputs": [
+        "d02c94c375ce99c08059ef5f6b55919661209e26ca99ddbdc0e49112aad36fb5"
+      ],
+      "outputs": [
+        {
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\inbox\\fleet-001-inputs-v001\\scout\\scout-v1.png",
+          "sha256": "d02c94c375ce99c08059ef5f6b55919661209e26ca99ddbdc0e49112aad36fb5"
+        },
+        {
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\character-concept-artist\\inbox\\fleet-001-inputs-v001\\scout\\scout-v1.png",
+          "sha256": "d02c94c375ce99c08059ef5f6b55919661209e26ca99ddbdc0e49112aad36fb5"
+        },
+        {
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-inputs-v001\\coordinator\\scout\\scout-v1.png",
+          "sha256": "d02c94c375ce99c08059ef5f6b55919661209e26ca99ddbdc0e49112aad36fb5"
+        }
+      ],
+      "reviewer_id": null,
+      "director_verdict": null,
+      "user_selection": "pending",
+      "attempts": [],
+      "validation": "등록 원본 해시·크기 일치. 아틀라스는 등록 좌표·픽셀 동일성 확인."
+    },
+    "concept": {
+      "status": "completed",
+      "inputs": [],
+      "outputs": [
+        {
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\concept\\v002\\concept.png",
+          "sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+          "approved": true
+        }
+      ],
+      "reviewer_id": "/root/art_director",
+      "director_verdict": "approved_for_next_stage",
+      "user_selection": "selected_by_approved_pipeline",
+      "attempts": [
+        {
+          "record_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-v001\\character-concept-artist\\attempt.json",
+          "record_sha256": "1ae43b470b2335755e9493e7335ee0c389c710c42a606de77512dc3c03b261e5",
+          "batch_id": "fleet-001",
+          "asset_id": "scout",
+          "stage": "concept",
+          "version": "v001",
+          "attempt": 1,
+          "attempt_limit": 3,
+          "status": "generated_imported",
+          "tool": "image_gen.imagegen",
+          "requested_model": "project_preference_GPT_Image_2.5_not_enforced",
+          "reported_model": "unknown",
+          "seed": "unknown",
+          "subject_sha256": "d02c94c375ce99c08059ef5f6b55919661209e26ca99ddbdc0e49112aad36fb5",
+          "style_sha256": "24023d939f647137904f7b8c135a09a893401f6a30953bbb0e213ee75eeea481",
+          "actual_cost": null,
+          "cost_status": "unknown_tool_not_reported",
+          "submitted_at": "2026-09-22T12:10:15.5386143Z",
+          "tool_returned_path": "C:\\Users\\sungkukpark\\AppData\\Roaming\\orca\\codex-runtime-home\\home\\generated_images\\01a0c8d2-3e21-7391-9ae4-e390a0cf8558\\exec-2b706d11-95c6-4b93-b4c7-bd95b77cab33.png",
+          "output_sha256": "5904b6bad889c6e75cff67126f5bc918b02a479b93e2b9836442de2c5e61d9f6",
+          "dimensions": [
+            1024,
+            1536
+          ]
+        },
+        {
+          "record_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-v002\\character-concept-artist\\attempt.json",
+          "record_sha256": "6dad5efae41d562737a81e51b6224213dab75fee0d72ed40e4963c84faecd83a",
+          "batch_id": "fleet-001",
+          "asset_id": "scout",
+          "stage": "concept",
+          "version": "v002",
+          "attempt": 2,
+          "attempt_limit": 3,
+          "status": "generated_imported",
+          "tool": "image_gen.imagegen",
+          "reported_model": "unknown",
+          "seed": "unknown",
+          "subject_sha256": "d02c94c375ce99c08059ef5f6b55919661209e26ca99ddbdc0e49112aad36fb5",
+          "style_sha256": "24023d939f647137904f7b8c135a09a893401f6a30953bbb0e213ee75eeea481",
+          "previous_result_sha256": "5904b6bad889c6e75cff67126f5bc918b02a479b93e2b9836442de2c5e61d9f6",
+          "actual_cost": null,
+          "cost_status": "unknown_tool_not_reported",
+          "submitted_at": "2026-09-22T12:15:36.5489584Z",
+          "tool_returned_path": "C:\\Users\\sungkukpark\\AppData\\Roaming\\orca\\codex-runtime-home\\home\\generated_images\\01a0c8d2-3e21-7391-9ae4-e390a0cf8558\\exec-44bb2a0b-ebe8-4263-85b2-10bbc44ee998.png",
+          "output_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+          "dimensions": [
+            1024,
+            1536
+          ]
+        }
+      ],
+      "selected_version": "v002",
+      "selected_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+      "review_handoff": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-review-v002\\art-director\\handoff.json",
+      "review_handoff_sha256": "983e179db077602fbda05cf3da7ab6e8aaf72bd421ff4fde028b961ddf95e5ea",
+      "reviews": [
+        {
+          "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-review-v001\\art-director\\handoff.json",
+          "sha256": "0545bace04ed79aeb0a5cbfd158aafe0cd705d8beee9d6588241f09731d0a5f3",
+          "publisher_role": "art-director",
+          "stage": "concept",
+          "version": "v001",
+          "asset_id": "scout",
+          "direction": null,
+          "input_readiness": null,
+          "approval_scope": null,
+          "verdict": "changes_requested",
+          "candidate_sha256": "5904b6bad889c6e75cff67126f5bc918b02a479b93e2b9836442de2c5e61d9f6",
+          "reviewer_id": null
+        },
+        {
+          "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-review-v002\\art-director\\handoff.json",
+          "sha256": "983e179db077602fbda05cf3da7ab6e8aaf72bd421ff4fde028b961ddf95e5ea",
+          "publisher_role": "art-director",
+          "stage": "concept",
+          "version": "v002",
+          "asset_id": "scout",
+          "direction": null,
+          "input_readiness": null,
+          "approval_scope": null,
+          "verdict": "approved_for_next_stage",
+          "candidate_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+          "reviewer_id": null
+        }
+      ]
+    },
+    "multiview": {
+      "status": "completed",
+      "inputs": [
+        "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf"
+      ],
+      "outputs": [
+        {
+          "direction": "front",
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\multiview\\v001\\front.png",
+          "sha256": "5c55c48cf8bd54f7ae9910e79b766d178748e54323d887577cf9f5031e955d0b"
+        },
+        {
+          "direction": "left",
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\multiview\\v001\\left.png",
+          "sha256": "891e9dd988b262c4c1df044a7f78ec9b6fa106360b1372c44043a6e60396bc0e"
+        },
+        {
+          "direction": "back",
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\multiview\\v001\\back.png",
+          "sha256": "6913085dca6e650bc38bf486568db498ca99af45cd9c24a90e6a926b131085cb"
+        },
+        {
+          "direction": "right",
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\multiview\\v001\\right.png",
+          "sha256": "4ac356e85c2dca18ee885169b69030a7c1344146a8780b0e26228275c31c7f6c"
+        }
+      ],
+      "reviewer_id": "/root/art_director",
+      "director_verdict": "approved_for_next_stage",
+      "user_selection": "pending",
+      "attempts": [
+        {
+          "record_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-back\\character-concept-artist\\back-attempt.json",
+          "record_sha256": "d12e991afdb4e941e913ecbd1a3c486ec366606c3fd851d6ed2990ad0ea7824c",
+          "batch_id": "fleet-001",
+          "asset_id": "scout",
+          "stage": "multiview",
+          "set_version": "v001",
+          "direction": "back",
+          "round": 1,
+          "stage_call": 4,
+          "stage_limit": 12,
+          "status": "generated_imported",
+          "tool": "image_gen.imagegen",
+          "concept_version": "v002",
+          "concept_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+          "reported_model": "unknown",
+          "seed": "unknown",
+          "actual_cost": null,
+          "cost_status": "unknown_tool_not_reported",
+          "tool_returned_path": "C:\\Users\\sungkukpark\\AppData\\Roaming\\orca\\codex-runtime-home\\home\\generated_images\\01a0c8d2-3e21-7391-9ae4-e390a0cf8558\\exec-a3646532-ff4c-4387-a13b-8ac87500a9a9.png",
+          "output_sha256": "6913085dca6e650bc38bf486568db498ca99af45cd9c24a90e6a926b131085cb",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "version": "v001"
+        },
+        {
+          "record_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-front\\character-concept-artist\\front-attempt.json",
+          "record_sha256": "c86d8805c7067727d2efd1957984f5990ae22334c39f6357a90db0cc5189186e",
+          "batch_id": "fleet-001",
+          "asset_id": "scout",
+          "stage": "multiview",
+          "set_version": "v001",
+          "direction": "front",
+          "round": 1,
+          "stage_call": 1,
+          "stage_limit": 12,
+          "status": "generated_imported",
+          "concept_version": "v002",
+          "concept_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+          "reported_model": "unknown",
+          "seed": "unknown",
+          "actual_cost": null,
+          "cost_status": "unknown_tool_not_reported",
+          "tool_returned_path": "C:\\Users\\sungkukpark\\AppData\\Roaming\\orca\\codex-runtime-home\\home\\generated_images\\01a0c8d2-3e21-7391-9ae4-e390a0cf8558\\exec-657ede82-9375-45c0-b417-d0b5c48cd559.png",
+          "output_sha256": "5c55c48cf8bd54f7ae9910e79b766d178748e54323d887577cf9f5031e955d0b",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "tool": "image_gen.imagegen",
+          "version": "v001"
+        },
+        {
+          "record_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-left\\character-concept-artist\\left-attempt.json",
+          "record_sha256": "d62f42a9100450329b2f2a062f4ebcf601216728a65cb28c7dd9c8ac2427fcef",
+          "batch_id": "fleet-001",
+          "asset_id": "scout",
+          "stage": "multiview",
+          "set_version": "v001",
+          "direction": "left",
+          "round": 1,
+          "stage_call": 2,
+          "stage_limit": 12,
+          "status": "generated_imported",
+          "concept_version": "v002",
+          "concept_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+          "reported_model": "unknown",
+          "seed": "unknown",
+          "actual_cost": null,
+          "cost_status": "unknown_tool_not_reported",
+          "tool": "image_gen.imagegen",
+          "tool_returned_path": "C:\\Users\\sungkukpark\\AppData\\Roaming\\orca\\codex-runtime-home\\home\\generated_images\\01a0c8d2-3e21-7391-9ae4-e390a0cf8558\\exec-c0ca87cf-3e8f-4b38-8334-5397ae5b70f0.png",
+          "output_sha256": "891e9dd988b262c4c1df044a7f78ec9b6fa106360b1372c44043a6e60396bc0e",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "version": "v001"
+        },
+        {
+          "record_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-right\\character-concept-artist\\right-attempt.json",
+          "record_sha256": "9ab42374e840be25f9f837071b047254f2378b78febf688afc3e03a496b92130",
+          "batch_id": "fleet-001",
+          "asset_id": "scout",
+          "stage": "multiview",
+          "set_version": "v001",
+          "direction": "right",
+          "round": 1,
+          "stage_call": 3,
+          "stage_limit": 12,
+          "status": "generated_imported",
+          "tool": "image_gen.imagegen",
+          "concept_version": "v002",
+          "concept_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+          "reported_model": "unknown",
+          "seed": "unknown",
+          "actual_cost": null,
+          "cost_status": "unknown_tool_not_reported",
+          "tool_returned_path": "C:\\Users\\sungkukpark\\AppData\\Roaming\\orca\\codex-runtime-home\\home\\generated_images\\01a0c8d2-3e21-7391-9ae4-e390a0cf8558\\exec-44b10815-8e04-4e10-a2fd-c789c1604b19.png",
+          "output_sha256": "4ac356e85c2dca18ee885169b69030a7c1344146a8780b0e26228275c31c7f6c",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "version": "v001"
+        }
+      ],
+      "reviews": [
+        {
+          "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-review-v001-back\\art-director\\handoff.json",
+          "sha256": "e4367c8b6fd6887a0587b82f18f848b2496c7095d7c1d7a63a65dfd517208224",
+          "publisher_role": "art-director",
+          "stage": "multiview",
+          "version": "v001",
+          "asset_id": "scout",
+          "direction": "back",
+          "input_readiness": null,
+          "approval_scope": "방향별 승인, 세트 검수 대기",
+          "verdict": "approved_for_next_stage",
+          "candidate_sha256": "6913085dca6e650bc38bf486568db498ca99af45cd9c24a90e6a926b131085cb",
+          "reviewer_id": null
+        },
+        {
+          "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-review-v001-front\\art-director\\handoff.json",
+          "sha256": "0c1bc68b6e632fd90e6178f62dcd6c1e9d6a9fe50b2ab951f8fd8307cc1cdea0",
+          "publisher_role": "art-director",
+          "stage": "multiview",
+          "version": "v001",
+          "asset_id": "scout",
+          "direction": "front",
+          "input_readiness": null,
+          "approval_scope": "방향별 승인, 세트 검수 대기",
+          "verdict": "approved_for_next_stage",
+          "candidate_sha256": "5c55c48cf8bd54f7ae9910e79b766d178748e54323d887577cf9f5031e955d0b",
+          "reviewer_id": null
+        },
+        {
+          "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-review-v001-left\\art-director\\handoff.json",
+          "sha256": "21076deb59d9a5a2f5d81dc1f9335955ad69843ab538444173ef3354b751d62b",
+          "publisher_role": "art-director",
+          "stage": "multiview",
+          "version": "v001",
+          "asset_id": "scout",
+          "direction": "left",
+          "input_readiness": null,
+          "approval_scope": "방향별 승인, 세트 검수 대기",
+          "verdict": "approved_for_next_stage",
+          "candidate_sha256": "891e9dd988b262c4c1df044a7f78ec9b6fa106360b1372c44043a6e60396bc0e",
+          "reviewer_id": null
+        },
+        {
+          "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-review-v001-right\\art-director\\handoff.json",
+          "sha256": "3dea66901bd6685395382d8e9e2c5de4a685b54f810e4424ec5c2613e44bf5ee",
+          "publisher_role": "art-director",
+          "stage": "multiview",
+          "version": "v001",
+          "asset_id": "scout",
+          "direction": "right",
+          "input_readiness": null,
+          "approval_scope": "방향별 승인, 세트 검수 대기",
+          "verdict": "approved_for_next_stage",
+          "candidate_sha256": "4ac356e85c2dca18ee885169b69030a7c1344146a8780b0e26228275c31c7f6c",
+          "reviewer_id": null
+        },
+        {
+          "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-review-v001-set\\art-director\\handoff.json",
+          "sha256": "58dc7902e095e73d600b19f2e8e8cc2500fa9c446089434cfb08bcc65853853b",
+          "publisher_role": "art-director",
+          "stage": "multiview",
+          "version": "v001",
+          "asset_id": "scout",
+          "direction": "set",
+          "input_readiness": null,
+          "approval_scope": "네 방향 고정 세트의 모델 생성 입력 승인",
+          "verdict": "approved_for_next_stage",
+          "candidate_sha256": null,
+          "reviewer_id": null
+        }
+      ],
+      "selected_version": "v001",
+      "review_handoff": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-review-v001-set\\art-director\\handoff.json",
+      "review_handoff_sha256": "58dc7902e095e73d600b19f2e8e8cc2500fa9c446089434cfb08bcc65853853b"
+    },
+    "model": {
+      "status": "completed",
+      "inputs": [
+        {
+          "direction": "front",
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\multiview\\v001\\front.png",
+          "sha256": "5c55c48cf8bd54f7ae9910e79b766d178748e54323d887577cf9f5031e955d0b"
+        },
+        {
+          "direction": "left",
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\multiview\\v001\\left.png",
+          "sha256": "891e9dd988b262c4c1df044a7f78ec9b6fa106360b1372c44043a6e60396bc0e"
+        },
+        {
+          "direction": "back",
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\multiview\\v001\\back.png",
+          "sha256": "6913085dca6e650bc38bf486568db498ca99af45cd9c24a90e6a926b131085cb"
+        },
+        {
+          "direction": "right",
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\multiview\\v001\\right.png",
+          "sha256": "4ac356e85c2dca18ee885169b69030a7c1344146a8780b0e26228275c31c7f6c"
+        }
+      ],
+      "outputs": [
+        {
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\final-assets\\ships\\scout\\v002\\scout.glb",
+          "sha256": "5d8ffbf81eaea965ff8911163c84868c9665beaaf5db8456e18cca5724fa29c5",
+          "approved": true
+        }
+      ],
+      "reviewer_id": "/root/art_director",
+      "director_verdict": "approved_for_next_stage",
+      "user_selection": "pending",
+      "attempts": [
+        {
+          "record_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\model\\v001\\attempt.json",
+          "schema_version": 1,
+          "batch_id": "fleet-001",
+          "asset_id": "scout",
+          "asset_kind": "ship_character",
+          "request_id": "fa69771b-7091-4243-b5be-6103694588ae",
+          "model_attempt_index": 1,
+          "model_attempt_limit": 2,
+          "model_version": "P1-20260311",
+          "parameters": {
+            "face_limit": 12000,
+            "texture": true,
+            "pbr": true,
+            "texture_quality": "standard",
+            "auto_size": false
+          },
+          "estimated_credits": 50,
+          "pricing_source": "https://docs.tripo3d.ai/get-started/pricing.html",
+          "pricing_checked_date": "2026-09-22",
+          "global_budget_limit": null,
+          "budget_policy": "사용자 상한 없음, 크레딧 부족 시 알림",
+          "created_at": "2026-09-22T12:39:26.203Z",
+          "inputs": [
+            {
+              "direction": "front",
+              "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\multiview\\v001\\front.png",
+              "sha256": "5c55c48cf8bd54f7ae9910e79b766d178748e54323d887577cf9f5031e955d0b"
+            },
+            {
+              "direction": "left",
+              "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\multiview\\v001\\left.png",
+              "sha256": "891e9dd988b262c4c1df044a7f78ec9b6fa106360b1372c44043a6e60396bc0e"
+            },
+            {
+              "direction": "back",
+              "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\multiview\\v001\\back.png",
+              "sha256": "6913085dca6e650bc38bf486568db498ca99af45cd9c24a90e6a926b131085cb"
+            },
+            {
+              "direction": "right",
+              "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\multiview\\v001\\right.png",
+              "sha256": "4ac356e85c2dca18ee885169b69030a7c1344146a8780b0e26228275c31c7f6c"
+            }
+          ],
+          "input_order": [
+            "front",
+            "left",
+            "back",
+            "right"
+          ],
+          "multiview_review_handoff": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-review-v001-set\\art-director\\handoff.json",
+          "multiview_review_sha256": "58dc7902e095e73d600b19f2e8e8cc2500fa9c446089434cfb08bcc65853853b",
+          "concept_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+          "output_contract": "정적 textured GLB. 실제 렌더·독립 검수·격리 패키지 검증 필요.",
+          "requested_face_limit_is_not_measured_triangles": true,
+          "automatic_post_retries": 0,
+          "status": "downloaded",
+          "submitted_at": "2026-09-22T12:39:29.573Z",
+          "task_id": "17614edd-f20e-4e0a-a458-74e1112fb22d",
+          "actual_cost": 50,
+          "reserved_credits": 0,
+          "balance_before": {
+            "balance": 4150,
+            "frozen": 0
+          },
+          "uploads": {
+            "front": "file_3b5e4184-8c4c-4f34-8ac2-a8cfba2d3c6c",
+            "left": "file_184ebb52-578f-43b2-a069-68ddd87dc316",
+            "back": "file_efc3fec7-f302-4c90-88a3-c7eb9730fa73",
+            "right": "file_96aeee36-bf0a-4fc0-b968-a0c10db7da44"
+          },
+          "request": {
+            "endpoint": "/v3/generation/multiview-to-model",
+            "payload": {
+              "inputs": [
+                {
+                  "front": "file_3b5e4184-8c4c-4f34-8ac2-a8cfba2d3c6c"
+                },
+                {
+                  "left": "file_184ebb52-578f-43b2-a069-68ddd87dc316"
+                },
+                {
+                  "back": "file_efc3fec7-f302-4c90-88a3-c7eb9730fa73"
+                },
+                {
+                  "right": "file_96aeee36-bf0a-4fc0-b968-a0c10db7da44"
+                }
+              ],
+              "model": "P1-20260311",
+              "face_limit": 12000,
+              "texture": true,
+              "pbr": true,
+              "texture_quality": "standard",
+              "auto_size": false
+            }
+          },
+          "service_status": "success",
+          "last_checked_at": "2026-09-22T12:41:22.821Z",
+          "download": {
+            "outputDir": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\model\\v001\\download",
+            "files": [
+              "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\model\\v001\\download\\model.glb",
+              "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\model\\v001\\download\\rendered_image.webp",
+              "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\model\\v001\\download\\preview.png"
+            ],
+            "modelFile": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\model\\v001\\download\\model.glb",
+            "preview": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\model\\v001\\download\\preview.png"
+          }
+        }
+      ],
+      "plan": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\model\\v001\\plan.json",
+      "reviews": [
+        {
+          "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-model-review-v001\\art-director\\handoff.json",
+          "sha256": "60efd8dc6471aba88e4cfae206c48c006a9e2de9479be08f49b87516604de295",
+          "publisher_role": "art-director",
+          "stage": "model",
+          "version": "v001",
+          "asset_id": "scout",
+          "direction": null,
+          "input_readiness": null,
+          "approval_scope": "동일 해시 GLB의 실제 렌더 기반 모델 아트",
+          "verdict": "approved_for_next_stage",
+          "candidate_sha256": null,
+          "reviewer_id": null
+        },
+        {
+          "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-model-review-v002-r001\\art-director\\handoff.json",
+          "sha256": "f43d7888cff0eaaec15a2a396aa2cdda1c5ed337362d37be19c1b4a22425e7c8",
+          "publisher_role": "art-director",
+          "stage": "model",
+          "version": "v002",
+          "asset_id": "scout",
+          "direction": null,
+          "input_readiness": null,
+          "approval_scope": null,
+          "verdict": "approved_for_next_stage",
+          "candidate_sha256": null,
+          "reviewer_id": "/root/art_director"
+        }
+      ]
+    },
+    "package": {
+      "status": "completed",
+      "inputs": [],
+      "outputs": [
+        {
+          "path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\final-assets\\ships\\scout\\v002\\asset.json",
+          "sha256": "13622e38a0599f4dc42aff00c7b027b22ac0d4599074a3ba606f7363769459fb"
+        }
+      ],
+      "reviewer_id": null,
+      "director_verdict": null,
+      "user_selection": "pending",
+      "attempts": [],
+      "validation": "headless import+instance / GPU / relocation passed",
+      "package_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\final-assets\\ships\\scout\\v002"
+    }
+  },
+  "limits": {
+    "concept_candidates": 3,
+    "multiview_rounds": 3,
+    "multiview_images": 12,
+    "model_paid_attempts": 2,
+    "model_correction_rounds": 2,
+    "package_rounds": 3
+  },
+  "costs": {
+    "confirmed_tripo_credits": 50,
+    "reserved_tripo_credits": 0,
+    "image_calls": 6,
+    "unknown_calls": [
+      {
+        "stage": "concept",
+        "version": "v001",
+        "direction": null,
+        "record_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-v001\\character-concept-artist\\attempt.json"
+      },
+      {
+        "stage": "concept",
+        "version": "v002",
+        "direction": null,
+        "record_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-v002\\character-concept-artist\\attempt.json"
+      },
+      {
+        "stage": "multiview",
+        "version": "v001",
+        "direction": "back",
+        "record_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-back\\character-concept-artist\\back-attempt.json"
+      },
+      {
+        "stage": "multiview",
+        "version": "v001",
+        "direction": "front",
+        "record_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-front\\character-concept-artist\\front-attempt.json"
+      },
+      {
+        "stage": "multiview",
+        "version": "v001",
+        "direction": "left",
+        "record_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-left\\character-concept-artist\\left-attempt.json"
+      },
+      {
+        "stage": "multiview",
+        "version": "v001",
+        "direction": "right",
+        "record_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-right\\character-concept-artist\\right-attempt.json"
+      }
+    ]
+  },
+  "task_ids": [
+    "17614edd-f20e-4e0a-a458-74e1112fb22d"
+  ],
+  "approvals": [],
+  "final_package": null,
+  "stop_reasons": [],
+  "future_dependencies": [
+    "target_dimensions_waterline_pivot",
+    "renderer_camera_settings"
+  ],
+  "resume_from": "model",
+  "batch_input_manifest": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\batches\\fleet-001\\input-manifest.json",
+  "evidence_handoffs": [
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-review-v001\\art-director\\handoff.json",
+      "sha256": "0545bace04ed79aeb0a5cbfd158aafe0cd705d8beee9d6588241f09731d0a5f3",
+      "publisher_role": "art-director",
+      "stage": "concept",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": "changes_requested",
+      "candidate_sha256": "5904b6bad889c6e75cff67126f5bc918b02a479b93e2b9836442de2c5e61d9f6",
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-review-v002\\art-director\\handoff.json",
+      "sha256": "983e179db077602fbda05cf3da7ab6e8aaf72bd421ff4fde028b961ddf95e5ea",
+      "publisher_role": "art-director",
+      "stage": "concept",
+      "version": "v002",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": "approved_for_next_stage",
+      "candidate_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-v001\\character-concept-artist\\handoff.json",
+      "sha256": "b2266f9765d7bd2deb17b534fff86c372da6956718142f992c02c84d0109270a",
+      "publisher_role": "character-concept-artist",
+      "stage": "concept",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-v001-generated\\coordinator\\handoff.json",
+      "sha256": "d5b35eb9322fe0b9544feb476ff29318b66460d748678cf3ab6d8154c3be2880",
+      "publisher_role": "coordinator",
+      "stage": "concept",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-v002\\character-concept-artist\\handoff.json",
+      "sha256": "eced9f80fdef3ef78d32a052c6a4481efef2e34beebc4a7432ea54b935642614",
+      "publisher_role": "character-concept-artist",
+      "stage": "concept",
+      "version": "v002",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-v002-generated\\coordinator\\handoff.json",
+      "sha256": "f9b653d1965d288c11be6daa086e33b9a2fba9165aec8049d4802a4add7c7691",
+      "publisher_role": "coordinator",
+      "stage": "concept",
+      "version": "v002",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-model-review-v001\\art-director\\handoff.json",
+      "sha256": "60efd8dc6471aba88e4cfae206c48c006a9e2de9479be08f49b87516604de295",
+      "publisher_role": "art-director",
+      "stage": "model",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": "동일 해시 GLB의 실제 렌더 기반 모델 아트",
+      "verdict": "approved_for_next_stage",
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-model-review-v002-r001\\art-director\\handoff.json",
+      "sha256": "f43d7888cff0eaaec15a2a396aa2cdda1c5ed337362d37be19c1b4a22425e7c8",
+      "publisher_role": "art-director",
+      "stage": "model",
+      "version": "v002",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": "approved_for_next_stage",
+      "candidate_sha256": null,
+      "reviewer_id": "/root/art_director"
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-model-v001\\coordinator\\handoff.json",
+      "sha256": "e0b4e28c8343987841cc53b827eb17c3be48fe4044d1e35ad035cd9af17d5da9",
+      "publisher_role": "coordinator",
+      "stage": "model",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": "review_requested",
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-model-v002\\coordinator\\handoff.json",
+      "sha256": "fea87132e62990b0e7bd1b271b99e99fae3fcafbb7c98a3435ff4b5793f62588",
+      "publisher_role": "coordinator",
+      "stage": "model",
+      "version": "v002",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": "review_requested",
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-review-v001-back\\art-director\\handoff.json",
+      "sha256": "e4367c8b6fd6887a0587b82f18f848b2496c7095d7c1d7a63a65dfd517208224",
+      "publisher_role": "art-director",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": "back",
+      "input_readiness": null,
+      "approval_scope": "방향별 승인, 세트 검수 대기",
+      "verdict": "approved_for_next_stage",
+      "candidate_sha256": "6913085dca6e650bc38bf486568db498ca99af45cd9c24a90e6a926b131085cb",
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-review-v001-front\\art-director\\handoff.json",
+      "sha256": "0c1bc68b6e632fd90e6178f62dcd6c1e9d6a9fe50b2ab951f8fd8307cc1cdea0",
+      "publisher_role": "art-director",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": "front",
+      "input_readiness": null,
+      "approval_scope": "방향별 승인, 세트 검수 대기",
+      "verdict": "approved_for_next_stage",
+      "candidate_sha256": "5c55c48cf8bd54f7ae9910e79b766d178748e54323d887577cf9f5031e955d0b",
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-review-v001-left\\art-director\\handoff.json",
+      "sha256": "21076deb59d9a5a2f5d81dc1f9335955ad69843ab538444173ef3354b751d62b",
+      "publisher_role": "art-director",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": "left",
+      "input_readiness": null,
+      "approval_scope": "방향별 승인, 세트 검수 대기",
+      "verdict": "approved_for_next_stage",
+      "candidate_sha256": "891e9dd988b262c4c1df044a7f78ec9b6fa106360b1372c44043a6e60396bc0e",
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-review-v001-right\\art-director\\handoff.json",
+      "sha256": "3dea66901bd6685395382d8e9e2c5de4a685b54f810e4424ec5c2613e44bf5ee",
+      "publisher_role": "art-director",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": "right",
+      "input_readiness": null,
+      "approval_scope": "방향별 승인, 세트 검수 대기",
+      "verdict": "approved_for_next_stage",
+      "candidate_sha256": "4ac356e85c2dca18ee885169b69030a7c1344146a8780b0e26228275c31c7f6c",
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-review-v001-set\\art-director\\handoff.json",
+      "sha256": "58dc7902e095e73d600b19f2e8e8cc2500fa9c446089434cfb08bcc65853853b",
+      "publisher_role": "art-director",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": "set",
+      "input_readiness": null,
+      "approval_scope": "네 방향 고정 세트의 모델 생성 입력 승인",
+      "verdict": "approved_for_next_stage",
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-approved\\character-concept-artist\\handoff.json",
+      "sha256": "6e1f948c60f894622eab1524567e667ae250b609ca971f0c07e9a8d466e71261",
+      "publisher_role": "character-concept-artist",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-back\\character-concept-artist\\handoff.json",
+      "sha256": "c21057172c13adc43749de76b1a65d1d6fd6efda0bbda81fd55d44ef20bfb7ed",
+      "publisher_role": "character-concept-artist",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": "back",
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-back-generated\\coordinator\\handoff.json",
+      "sha256": "dd147be4da41177d7f4f4336f8abf31957fee7cff2f035ff30457d5630dbb286",
+      "publisher_role": "coordinator",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": "back",
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-front\\character-concept-artist\\handoff.json",
+      "sha256": "2675e8c6656c27b2da534e36c738782de8c9d9198934e74fc080c88bfe0950a5",
+      "publisher_role": "character-concept-artist",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": "front",
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-front-generated\\coordinator\\handoff.json",
+      "sha256": "c7266c5b24665e541396bdb5af42c90a80542e06ea9a24dec141a7f9ee87dccf",
+      "publisher_role": "coordinator",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": "front",
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-left\\character-concept-artist\\handoff.json",
+      "sha256": "b2f7f3b6426e57ba92cdd86b176b91560820761395d28e2e69e7f640439ba38f",
+      "publisher_role": "character-concept-artist",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": "left",
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-left-generated\\coordinator\\handoff.json",
+      "sha256": "150b842f294bfffe4f205b087197c02328cc63bfdf88e29463bf5eadc8ff71ef",
+      "publisher_role": "coordinator",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": "left",
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-right\\character-concept-artist\\handoff.json",
+      "sha256": "3496bcf04bcea8ce3a09a620f639afd23a2a31acf533a6e2b94eb2b387abbd5b",
+      "publisher_role": "character-concept-artist",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": "right",
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-right-generated\\coordinator\\handoff.json",
+      "sha256": "b9193dda1d93203966c87edaa4d88f51b0f99cd13493283eadb27851673369fa",
+      "publisher_role": "coordinator",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": "right",
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-multiview-v001-set-review\\character-concept-artist\\handoff.json",
+      "sha256": "34f4cdad7e2cc9384fc74e45f0b2b878a297e2ece2cc577e81fbbd254bd46d2c",
+      "publisher_role": "character-concept-artist",
+      "stage": "multiview",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-package-v001\\coordinator\\handoff.json",
+      "sha256": "d5ff6aafea0ce7da25d47a61fe466a5258c9f9366947b596bfcdd8bf80b2a7a4",
+      "publisher_role": "coordinator",
+      "stage": "package",
+      "version": "v001",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    },
+    {
+      "handoff_path": "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-package-v002\\coordinator\\handoff.json",
+      "sha256": "9a561a7908edc1c9584016c1f45904aff40c794770d9440ba9f05953a031f113",
+      "publisher_role": "coordinator",
+      "stage": "package",
+      "version": "v002",
+      "asset_id": "scout",
+      "direction": null,
+      "input_readiness": null,
+      "approval_scope": null,
+      "verdict": null,
+      "candidate_sha256": null,
+      "reviewer_id": null
+    }
+  ],
+  "current_stage": "package"
+}

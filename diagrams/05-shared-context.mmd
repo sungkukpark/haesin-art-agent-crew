@@ -1,0 +1,20 @@
+flowchart TB
+    REF["Read-only inputs
+Role and skill instructions
+shared/style + shared/references"] --> A["Producing specialist
+Own workspace: candidates and self-review"]
+    REF --> D["Art director
+Own workspace: review decisions"]
+    REF --> C["Coordinator
+Own workspace: pipeline and final assets"]
+    A -->|"Publish files, then handoff.json"| SA["Shared producer publication
+Images, versions and hashes"]
+    SA -->|"Read and review"| D
+    SA -->|"Read accepted handoff"| C
+    D -->|"Publish review"| SD["Shared director publication
+Verdict and corrections"]
+    SD -->|"Read feedback"| A
+    SD -->|"Read decision"| C
+    C -->|"Publish model evidence"| SC["Shared coordinator publication
+Model renders and inspection"]
+    SC -->|"Read for model review"| D

@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "batch_id": "fleet-001",
+  "asset_id": "scout",
+  "asset_kind": "ship_character",
+  "stage": "multiview",
+  "set_version": "v001",
+  "status": "candidate",
+  "direction_contract": "local-sides-v2",
+  "axes": {
+    "up": "+Y",
+    "front": "-Z",
+    "left": "-X",
+    "right": "+X"
+  },
+  "concept_reference": {
+    "version": "v002",
+    "path": "concept-reference.png",
+    "sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+    "director_verdict": "approved_for_next_stage",
+    "user_selected": false,
+    "selection_basis": "상위 package 요청에 따른 디렉터 승인 자동 전환",
+    "original_artist_relative_path": "../../concept/v002/concept.png"
+  },
+  "calls": 4,
+  "call_limit": 12,
+  "correction_rounds": 0,
+  "correction_limit": 2,
+  "actual_cost": null,
+  "cost_status": "unknown_tool_not_reported",
+  "set_verdict": "approved_for_next_stage",
+  "directions": [
+    {
+      "direction": "front",
+      "source_label": "front",
+      "canonical_direction": "front",
+      "file": "front.png",
+      "sha256": "5c55c48cf8bd54f7ae9910e79b766d178748e54323d887577cf9f5031e955d0b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "generation_round": 1,
+      "stage_call": 1,
+      "reused": false,
+      "director": "/root/art_director",
+      "direction_verdict": "approved_for_next_stage",
+      "input_order": [
+        "concept_reference_v002"
+      ],
+      "prompt_file": "front-prompt.txt"
+    },
+    {
+      "direction": "left",
+      "source_label": "left",
+      "canonical_direction": "left",
+      "file": "left.png",
+      "sha256": "891e9dd988b262c4c1df044a7f78ec9b6fa106360b1372c44043a6e60396bc0e",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "generation_round": 1,
+      "stage_call": 2,
+      "reused": false,
+      "director": "/root/art_director",
+      "direction_verdict": "approved_for_next_stage",
+      "input_order": [
+        "concept_reference_v002"
+      ],
+      "prompt_file": "left-prompt.txt"
+    },
+    {
+      "direction": "right",
+      "source_label": "right",
+      "canonical_direction": "right",
+      "file": "right.png",
+      "sha256": "4ac356e85c2dca18ee885169b69030a7c1344146a8780b0e26228275c31c7f6c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "generation_round": 1,
+      "stage_call": 3,
+      "reused": false,
+      "director": "/root/art_director",
+      "direction_verdict": "approved_for_next_stage",
+      "input_order": [
+        "concept_reference_v002"
+      ],
+      "prompt_file": "right-prompt.txt"
+    },
+    {
+      "direction": "back",
+      "source_label": "back",
+      "canonical_direction": "back",
+      "file": "back.png",
+      "sha256": "6913085dca6e650bc38bf486568db498ca99af45cd9c24a90e6a926b131085cb",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "generation_round": 1,
+      "stage_call": 4,
+      "reused": false,
+      "director": "/root/art_director",
+      "direction_verdict": "approved_for_next_stage",
+      "input_order": [
+        "concept_reference_v002"
+      ],
+      "prompt_file": "back-prompt.txt"
+    }
+  ],
+  "limitations": [
+    "기하학적 정사영/치수 도면 아님",
+    "픽셀배율/기준선/고도 차이",
+    "Front 선미 붉은 천 미표현, 다른 3뷰로 보완",
+    "노 수·미세위치 비차단"
+  ],
+  "model_submission": "ready_for_coordinator",
+  "set_reviewer": "/root/art_director",
+  "execution_status": "completed",
+  "required_regeneration": false
+}

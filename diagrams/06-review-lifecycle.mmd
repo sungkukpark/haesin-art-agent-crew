@@ -1,0 +1,19 @@
+stateDiagram-v2
+    [*] --> Brief
+    Brief --> Consultation: Fix inputs, scope and criteria
+    Consultation --> Candidate: Produce next unused version
+    Candidate --> SelfReview: Inspect actual output
+    SelfReview --> IndependentReview: Supply images, hashes and records
+    IndependentReview --> Approved: approved_for_next_stage
+    IndependentReview --> Revise: changes_requested
+    IndependentReview --> MissingEvidence: blocked_missing_evidence
+    MissingEvidence --> IndependentReview: Supply evidence for same candidate
+    MissingEvidence --> Blocked: Evidence unavailable
+    Revise --> Candidate: Remaining budget and correction feasible
+    Revise --> Stopped: iteration_limit_reached or repeated_issue
+    Approved --> NextStage: Later stage requested and prerequisites met
+    NextStage --> Brief: Carry accepted inputs and cumulative usage
+    Approved --> Delivered: Requested end stage reached
+    Delivered --> [*]
+    Blocked --> [*]
+    Stopped --> [*]

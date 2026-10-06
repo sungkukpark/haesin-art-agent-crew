@@ -1,0 +1,478 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-09-22",
+  "source_document": {
+    "name": "해신이미지자산목록.pdf",
+    "document_commit": "c3293ba",
+    "sha256": "1c0cab133cbc855094d3bf8650b6dafc0d203feb820b57b1542a2bf00fddc19f"
+  },
+  "source_mapping": "scripts/game_view.gd::_cache_ship_textures; scripts/ocean_creature_visuals.gd::REGIONS",
+  "default_end_stage": "package",
+  "pilot_asset_ids": [
+    "player",
+    "scout",
+    "kraken"
+  ],
+  "units": [
+    {
+      "asset_id": "player",
+      "runtime_key": "player",
+      "name": "거북선 기본형",
+      "kind": "ship_character",
+      "group": "player",
+      "source": {
+        "path": "assets/ships/turtle-ship-v1.png",
+        "sha256": "a017422bb3a851a1ac83aaced0b89254b2fdb7369f8b6938f83e74b25d016225",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 2,
+      "preserve": [
+        "거북선 선체",
+        "덮개",
+        "용머리",
+        "기본 무장"
+      ],
+      "family": "turtle",
+      "refit_stage": 0,
+      "base_asset_id": "player"
+    },
+    {
+      "asset_id": "player-refit-1",
+      "runtime_key": "player-refit-1",
+      "name": "거북선 철갑 강화형",
+      "kind": "ship_character",
+      "group": "player",
+      "source": {
+        "path": "assets/ships/turtle-refit-1-v1.png",
+        "sha256": "11fdb21da05fd0d5504b704df8ecf42d8fe9c3d40816b5347c09202d9ac0e422",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 2,
+      "preserve": [
+        "기본형 연속성",
+        "철갑 강화"
+      ],
+      "family": "turtle",
+      "refit_stage": 1,
+      "base_asset_id": "player"
+    },
+    {
+      "asset_id": "player-refit-2",
+      "runtime_key": "player-refit-2",
+      "name": "거북선 양현 화포 증설형",
+      "kind": "ship_character",
+      "group": "player",
+      "source": {
+        "path": "assets/ships/turtle-refit-2-v1.png",
+        "sha256": "f5d6d3f2f2c3da7d8ddacaef33f92039f4b14d9d384b61941eaf3e62dd6d200a",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 2,
+      "preserve": [
+        "기본형 연속성",
+        "양현 화포 증설"
+      ],
+      "family": "turtle",
+      "refit_stage": 2,
+      "base_asset_id": "player"
+    },
+    {
+      "asset_id": "player-refit-3",
+      "runtime_key": "player-refit-3",
+      "name": "거북선 강화 갑판·용머리형",
+      "kind": "ship_character",
+      "group": "player",
+      "source": {
+        "path": "assets/ships/turtle-refit-3-v1.png",
+        "sha256": "206eeabe8ed614488ee49e2f11e6f9dce6841fc930ec9c78f6abd8ef92f06668",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 2,
+      "preserve": [
+        "기본형 연속성",
+        "강화 갑판",
+        "용머리"
+      ],
+      "family": "turtle",
+      "refit_stage": 3,
+      "base_asset_id": "player"
+    },
+    {
+      "asset_id": "player-refit-4",
+      "runtime_key": "player-refit-4",
+      "name": "거북선 지휘 기함형",
+      "kind": "ship_character",
+      "group": "player",
+      "source": {
+        "path": "assets/ships/turtle-refit-4-v1.png",
+        "sha256": "6a55b38eef8eb0decf54e8453ad28ff18612567cad00ef5bd3ec378f9462b94c",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 2,
+      "preserve": [
+        "기본형 연속성",
+        "지휘 구조",
+        "금장"
+      ],
+      "family": "turtle",
+      "refit_stage": 4,
+      "base_asset_id": "player"
+    },
+    {
+      "asset_id": "support",
+      "runtime_key": "support",
+      "name": "아군 판옥선",
+      "kind": "ship_character",
+      "group": "support",
+      "source": {
+        "path": "assets/ships/panokseon-v1.png",
+        "sha256": "d345c874ad45b392e3d298f12712b5ce9a8d13f38c33b2a1a0612071785dfde0",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 3,
+      "preserve": [
+        "판옥선 선체",
+        "갑판 구조",
+        "포격 지원 식별성"
+      ]
+    },
+    {
+      "asset_id": "scout",
+      "runtime_key": "scout",
+      "name": "정찰선",
+      "kind": "ship_character",
+      "group": "enemy",
+      "source": {
+        "path": "assets/ships/scout-v1.png",
+        "sha256": "d02c94c375ce99c08059ef5f6b55919661209e26ca99ddbdc0e49112aad36fb5",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 4,
+      "preserve": [
+        "가늘고 빠른 소형 선체",
+        "노",
+        "기본 적 식별성"
+      ]
+    },
+    {
+      "asset_id": "arquebus",
+      "runtime_key": "arquebus",
+      "name": "조총선",
+      "kind": "ship_character",
+      "group": "enemy",
+      "source": {
+        "path": "assets/ships/arquebus-v2.png",
+        "sha256": "5dcf53a8345b797223da1949b5328e3146006a3f5d6dcce3e59c9fab9a5afec8",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 4,
+      "preserve": [
+        "소형 선체",
+        "조총의 길고 가는 총열",
+        "현대식 기관총 배제"
+      ],
+      "user_override": "원본 병사 4명은 3D에서 제외. 조총·선체 중심 무인 배치를 컨셉 검수한다."
+    },
+    {
+      "asset_id": "charger",
+      "runtime_key": "charger",
+      "name": "돌격선",
+      "kind": "ship_character",
+      "group": "enemy",
+      "source": {
+        "path": "assets/ships/charger-v1.png",
+        "sha256": "845dff501219430d896ecf025abf818e51611c861b11e7a02acfe128c7680851",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 4,
+      "preserve": [
+        "돌진용 선수",
+        "강한 전방 실루엣"
+      ]
+    },
+    {
+      "asset_id": "fireship",
+      "runtime_key": "fireship",
+      "name": "화공선",
+      "kind": "ship_character",
+      "group": "enemy",
+      "source": {
+        "path": "assets/ships/fireship-v1.png",
+        "sha256": "54d9ba5c883fcac26ee94f031ab689d3f384b048e4863fc2ac9d81d042d0ba75",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 4,
+      "preserve": [
+        "화공선 적재물",
+        "선체 실루엣",
+        "화공 역할"
+      ]
+    },
+    {
+      "asset_id": "heavy",
+      "runtime_key": "heavy",
+      "name": "중장갑선",
+      "kind": "ship_character",
+      "group": "enemy",
+      "source": {
+        "path": "assets/ships/heavy-v1.png",
+        "sha256": "5ba17289beac123983922fd7abd14cce7a5eb11f8400df3bce1f668b3657a1a3",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 4,
+      "preserve": [
+        "넓은 선체",
+        "전방 장갑",
+        "중량감"
+      ]
+    },
+    {
+      "asset_id": "commander",
+      "runtime_key": "commander",
+      "name": "지휘선",
+      "kind": "ship_character",
+      "group": "enemy",
+      "source": {
+        "path": "assets/ships/commander-v1.png",
+        "sha256": "9b42a5463c902c19633319ad066297fc3b064d65dc2e9acd90128c04f04cca4d",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 4,
+      "preserve": [
+        "지휘 구조",
+        "깃발",
+        "일반 적 지휘선 식별성"
+      ]
+    },
+    {
+      "asset_id": "boss-charge",
+      "runtime_key": "boss-charge",
+      "name": "선봉 돌격선",
+      "kind": "ship_character",
+      "group": "boss",
+      "source": {
+        "path": "assets/ships/boss-charge-v1.png",
+        "sha256": "bae5711655a6a1be2adf38085be67c6885e590cf1ad631c86e67cf9ce8d183e3",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 5,
+      "preserve": [
+        "돌격 보스 선수",
+        "일반 돌격선과의 위협도 차이"
+      ],
+      "boss_role": "charge"
+    },
+    {
+      "asset_id": "boss-fire",
+      "runtime_key": "boss-fire",
+      "name": "양현 포격선",
+      "kind": "ship_character",
+      "group": "boss",
+      "source": {
+        "path": "assets/ships/boss-fire-v1.png",
+        "sha256": "9a3bce19163b1492e30a559e708569e627d49e125bc79653b730180ed681d364",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 5,
+      "preserve": [
+        "양현 포격 구조",
+        "넓은 공격 실루엣"
+      ],
+      "boss_role": "broadside"
+    },
+    {
+      "asset_id": "boss-command",
+      "runtime_key": "boss-command",
+      "name": "호위 지휘선",
+      "kind": "ship_character",
+      "group": "boss",
+      "source": {
+        "path": "assets/ships/boss-command-v1.png",
+        "sha256": "8158aa5ae085b153e0e7403a77e6ea9176667e47a47bd8103a857687fda97826",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 5,
+      "preserve": [
+        "호위 지휘 구조",
+        "지휘선과의 등급 차이"
+      ],
+      "boss_role": "command"
+    },
+    {
+      "asset_id": "boss-combined",
+      "runtime_key": "boss-combined",
+      "name": "중무장 돌격기함",
+      "kind": "ship_character",
+      "group": "boss",
+      "source": {
+        "path": "assets/ships/boss-combined-v1.png",
+        "sha256": "55f5a40d9a76b6ae501d175e6403cf850cacbc4d25b156f33261b5905379c403",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 5,
+      "preserve": [
+        "중무장",
+        "돌격",
+        "지휘 복합 구조"
+      ],
+      "boss_role": "combined"
+    },
+    {
+      "asset_id": "flagship",
+      "runtime_key": "flagship",
+      "name": "최종 적 기함",
+      "kind": "ship_character",
+      "group": "boss",
+      "source": {
+        "path": "assets/ships/flagship-v1.png",
+        "sha256": "80769c395762e318316feb41e0c07d53800f64ec156a68caafaf8ee267e8785b",
+        "dimensions": [
+          1024,
+          1536
+        ]
+      },
+      "pdf_page": 5,
+      "preserve": [
+        "최종 보스 기함의 큰 선체",
+        "위계",
+        "주요 장식"
+      ],
+      "boss_role": "final"
+    },
+    {
+      "asset_id": "whale",
+      "runtime_key": "whale",
+      "name": "고래",
+      "kind": "sea_creature",
+      "group": "monster",
+      "faction": "ally",
+      "source": {
+        "path": "assets/creatures/ocean-allies-v1.png",
+        "sha256": "4d9f8cb47a589ee9c0c5ab8e1d9d5f7653c7ef66b176c3db9a521e19e3c4a14b",
+        "dimensions": [
+          1983,
+          793
+        ],
+        "atlas_region": [
+          0,
+          0,
+          610,
+          793
+        ]
+      },
+      "pdf_page": 6,
+      "preserve": [
+        "긴 몸통",
+        "가슴지느러미",
+        "수평 꼬리",
+        "원본 색"
+      ]
+    },
+    {
+      "asset_id": "kraken",
+      "runtime_key": "kraken",
+      "name": "크라켄",
+      "kind": "sea_creature",
+      "group": "monster",
+      "faction": "ally",
+      "source": {
+        "path": "assets/creatures/ocean-allies-v1.png",
+        "sha256": "4d9f8cb47a589ee9c0c5ab8e1d9d5f7653c7ef66b176c3db9a521e19e3c4a14b",
+        "dimensions": [
+          1983,
+          793
+        ],
+        "atlas_region": [
+          610,
+          0,
+          780,
+          793
+        ]
+      },
+      "pdf_page": 6,
+      "preserve": [
+        "큰 몸통과 눈",
+        "방사형 팔",
+        "빨판",
+        "원본 색"
+      ]
+    },
+    {
+      "asset_id": "squid",
+      "runtime_key": "squid",
+      "name": "거대오징어",
+      "kind": "sea_creature",
+      "group": "monster",
+      "faction": "ally",
+      "source": {
+        "path": "assets/creatures/ocean-allies-v1.png",
+        "sha256": "4d9f8cb47a589ee9c0c5ab8e1d9d5f7653c7ef66b176c3db9a521e19e3c4a14b",
+        "dimensions": [
+          1983,
+          793
+        ],
+        "atlas_region": [
+          1390,
+          0,
+          593,
+          793
+        ]
+      },
+      "pdf_page": 6,
+      "preserve": [
+        "긴 외투막",
+        "지느러미",
+        "짧은 팔과 긴 촉수",
+        "원본 색"
+      ]
+    }
+  ]
+}

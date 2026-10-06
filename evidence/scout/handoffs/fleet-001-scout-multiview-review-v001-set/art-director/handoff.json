@@ -1,0 +1,25 @@
+{
+  "batch_id": "fleet-001",
+  "asset_id": "scout",
+  "stage": "multiview",
+  "set_version": "v001",
+  "direction": "set",
+  "publisher_role": "art-director",
+  "verdict": "approved_for_next_stage",
+  "approval_scope": "네 방향 고정 세트의 모델 생성 입력 승인",
+  "concept_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+  "direction_hashes": {
+    "front": "5c55c48cf8bd54f7ae9910e79b766d178748e54323d887577cf9f5031e955d0b",
+    "left": "891e9dd988b262c4c1df044a7f78ec9b6fa106360b1372c44043a6e60396bc0e",
+    "right": "4ac356e85c2dca18ee885169b69030a7c1344146a8780b0e26228275c31c7f6c",
+    "back": "6913085dca6e650bc38bf486568db498ca99af45cd9c24a90e6a926b131085cb"
+  },
+  "user_override_exact_counts": true,
+  "required_regeneration": false,
+  "files": [
+    {
+      "path": "multiview-set-review.md",
+      "sha256": "fbf880f59152b8360fe8e8f5b8c762f96dafc5ba478621151aee2bf3c51dd71d"
+    }
+  ]
+}

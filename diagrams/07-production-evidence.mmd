@@ -1,0 +1,27 @@
+flowchart LR
+    subgraph SH["Ship examples"]
+        S1["scout concept v002
+Concept approved"] -->|"Recorded production lineage"| S2["scout package v002
+Approved GLB + Godot records"]
+        P1["player concept v003
+changes_requested retained"] -.->|"Associated production records; separate decisions"| P2["player model/package v002
+Model approved"]
+    end
+    subgraph MO["Creature example"]
+        K1["kraken concept v002
+Concept approved"] -->|"Recorded production lineage"| K2["kraken package v003
+Approved GLB + Godot records"]
+    end
+    subgraph PO["Portrait example"]
+        REF["Nobukazu print, 1893
+Subject source confirmed by user later"] --> A["mounted-officer v001
+Changes requested"]
+        A -->|"Same image preserved as edit input"| B["v002
+Framing corrected; art approved"]
+        B -->|"Later scoped revision"| C["kato-kiyomasa v003
+Lower-body framing + preview fix"]
+    end
+    S2 --> EV["Case pages: actual images, records and SHA-256"]
+    P2 --> EV
+    K2 --> EV
+    C --> EV

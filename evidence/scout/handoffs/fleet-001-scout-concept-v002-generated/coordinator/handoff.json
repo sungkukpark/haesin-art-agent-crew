@@ -1,0 +1,25 @@
+{
+  "batch_id": "fleet-001",
+  "asset_id": "scout",
+  "stage": "concept",
+  "version": "v002",
+  "direction": null,
+  "publisher_role": "coordinator",
+  "source_path": "C:\\Users\\sungkukpark\\AppData\\Roaming\\orca\\codex-runtime-home\\home\\generated_images\\01a0c8d2-3e21-7391-9ae4-e390a0cf8558\\exec-44bb2a0b-ebe8-4263-85b2-10bbc44ee998.png",
+  "sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+  "copies": [
+    "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\character-concept-artist\\inbox\\fleet-001-generated\\scout\\concept\\v002\\concept.png",
+    "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\coordinator\\ships\\scout\\concept\\v002\\concept.png",
+    "D:\\wkspaces\\zerosketch\\haesin\\_workspace\\shared\\review-inputs\\fleet-001-scout-concept-v002-generated\\coordinator\\concept.png"
+  ],
+  "files": [
+    {
+      "path": "concept.png",
+      "sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf"
+    }
+  ],
+  "task_id": "unknown",
+  "model": "unknown",
+  "seed": "unknown",
+  "cost": "unknown"
+}

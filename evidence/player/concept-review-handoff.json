@@ -1,0 +1,19 @@
+{
+  "batch_id": "fleet-001",
+  "asset_id": "player",
+  "stage": "concept",
+  "version": "v003",
+  "publisher_role": "art-director",
+  "verdict": "changes_requested",
+  "stop_reason": "repeated_issue",
+  "generation_attempts": 3,
+  "revision_attempts": 2,
+  "iteration_budget_exhausted": true,
+  "candidate_sha256": "a650bcc8e2127f79cac77355d25306e53af760e7912a12767f02dd759da9b272",
+  "files": [
+    {
+      "sha256": "aeccdc01e852179217968fbfcf6f1f1d33896c464ac69c52a1cecc94da26a2d2",
+      "path": "concept-review.md"
+    }
+  ]
+}

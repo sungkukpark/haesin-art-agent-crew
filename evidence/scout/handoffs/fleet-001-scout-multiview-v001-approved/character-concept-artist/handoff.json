@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "batch_id": "fleet-001",
+  "asset_id": "scout",
+  "asset_kind": "ship_character",
+  "stage": "multiview",
+  "set_version": "v001",
+  "publisher_role": "character-concept-artist",
+  "handoff_id": "fleet-001-scout-multiview-v001-approved",
+  "set_verdict": "approved_for_next_stage",
+  "director": "/root/art_director",
+  "required_regeneration": false,
+  "direction_contract": "local-sides-v2",
+  "concept_version": "v002",
+  "concept_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+  "user_selected": false,
+  "selection_basis": "상위package요청및디렉터승인",
+  "exact_counts_nonblocking": true,
+  "concept_calls": 2,
+  "multiview_calls": 4,
+  "multiview_correction_rounds": 0,
+  "actual_image_cost": null,
+  "cost_status": "unknown_tool_not_reported",
+  "model_calls_by_artist": 0,
+  "model_submission": "ready_for_coordinator",
+  "files": [
+    {
+      "path": "back-attempt.json",
+      "sha256": "d12e991afdb4e941e913ecbd1a3c486ec366606c3fd851d6ed2990ad0ea7824c"
+    },
+    {
+      "path": "back-director-review.md",
+      "sha256": "97ae9e6544a6e7d50362aba473eda859cbd4a69ba5d00b179d1411cc9e52c9fa"
+    },
+    {
+      "path": "back-prompt.txt",
+      "sha256": "1c6865e17dab2168ac72095bdbbf3ebad60d73ed0be69aacec516f9c1c5a6c67"
+    },
+    {
+      "path": "back-review.md",
+      "sha256": "fe250e6ca2aa15a810026ba7d14a1fd1981101fb039fb09b35785429e7c906ce"
+    },
+    {
+      "path": "back.png",
+      "sha256": "6913085dca6e650bc38bf486568db498ca99af45cd9c24a90e6a926b131085cb"
+    },
+    {
+      "path": "brief.md",
+      "sha256": "772c8476c924664fd256d97ede87e2ef736d0f72ecc30ee997a9a49970b7cd0d"
+    },
+    {
+      "path": "concept-director-review.md",
+      "sha256": "fb551b32bbb41c00f5654be60e3691e82c3d01d0fa0e9668511b96112c1c473f"
+    },
+    {
+      "path": "concept-reference.png",
+      "sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf"
+    },
+    {
+      "path": "director-set-review.md",
+      "sha256": "fbf880f59152b8360fe8e8f5b8c762f96dafc5ba478621151aee2bf3c51dd71d"
+    },
+    {
+      "path": "front-attempt.json",
+      "sha256": "997f4ac156d0089ebe9592c16f078d0a59787c9ce0b8c2952dbe3df537d43ad9"
+    },
+    {
+      "path": "front-director-review.md",
+      "sha256": "abca22a52e99e2bccd943fb0e8d8156111f8079d1beed5da38acdde40c38b1e9"
+    },
+    {
+      "path": "front-prompt.txt",
+      "sha256": "c6a16867696f49dade7b3a8132bb0a9a2e7eeb69b56bd8108c49a7505bdca29d"
+    },
+    {
+      "path": "front-review.md",
+      "sha256": "7afa0327f437f8569b2c7995c94089bf81a4a6b5786d07f7a2b48586734c87da"
+    },
+    {
+      "path": "front.png",
+      "sha256": "5c55c48cf8bd54f7ae9910e79b766d178748e54323d887577cf9f5031e955d0b"
+    },
+    {
+      "path": "left-attempt.json",
+      "sha256": "d62f42a9100450329b2f2a062f4ebcf601216728a65cb28c7dd9c8ac2427fcef"
+    },
+    {
+      "path": "left-director-review.md",
+      "sha256": "17bba9e7c6a2f1f0ecd7c2d00fe2f130c70be440bb1b33ab20cee313c59b6197"
+    },
+    {
+      "path": "left-prompt.txt",
+      "sha256": "848f87b9af066865e4849fc8707161af9857c5526ca3ba2cdc58adc3222b1c9d"
+    },
+    {
+      "path": "left-review.md",
+      "sha256": "24d0798cda01992e0737bda708041212f65bdd86aed48a7fd5b966e62ebe4d1b"
+    },
+    {
+      "path": "left.png",
+      "sha256": "891e9dd988b262c4c1df044a7f78ec9b6fa106360b1372c44043a6e60396bc0e"
+    },
+    {
+      "path": "manifest.json",
+      "sha256": "44ebcd6f7ae45f666e9e86f2f599ece489317362045614269129b51ea667dadb"
+    },
+    {
+      "path": "prompts.md",
+      "sha256": "cf9eaf6b60d376378ff29bdbceecadead1f27b3978d74d36018911d22cbbb68d"
+    },
+    {
+      "path": "review.md",
+      "sha256": "dcc39fee076b9e9562061fec70fb8368d017cb9d89ab8510bcaa3919c9304901"
+    },
+    {
+      "path": "right-attempt.json",
+      "sha256": "9ab42374e840be25f9f837071b047254f2378b78febf688afc3e03a496b92130"
+    },
+    {
+      "path": "right-director-review.md",
+      "sha256": "189887fd769700b2b2a4223e7a6148a640aa6ae9402e1eae80e98e56903c14a3"
+    },
+    {
+      "path": "right-prompt.txt",
+      "sha256": "5f4cc44b8e3daccdeb0148fa3add20879a81f870f49da0c9894df4e0a9d155fe"
+    },
+    {
+      "path": "right-review.md",
+      "sha256": "0f1e6c8ba9a48ce774638d5beff4bb34e60ed62a404a7246f7993e3a5907ee86"
+    },
+    {
+      "path": "right.png",
+      "sha256": "4ac356e85c2dca18ee885169b69030a7c1344146a8780b0e26228275c31c7f6c"
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+{
+  "schema_version": 1,
+  "scope": "Actual HAESIN art system documentation; historical examples",
+  "snapshot_date": "2026-10-06",
+  "files": [
+    {
+      "source": ".codex/agents/character-concept-artist.toml",
+      "file": "evidence/definitions/character-concept-artist.toml",
+      "sha256": "76b7c0325fd0377f233ee2573e9f0f3e996ba286c80638ac2b2abee15eedb39d",
+      "bytes": 8526
+    },
+    {
+      "source": ".codex/agents/monster-concept-artist.toml",
+      "file": "evidence/definitions/monster-concept-artist.toml",
+      "sha256": "00b65e607dce76331ff8c78cca81e51ddeed07d9f86597e092dc1fd16668fbc7",
+      "bytes": 5170
+    },
+    {
+      "source": ".codex/agents/environment-concept-artist.toml",
+      "file": "evidence/definitions/environment-concept-artist.toml",
+      "sha256": "05dea147cb21383058c2fe4dfa1eb524eb73e8887fc51f4a69a7b5a8ce2ca6b9",
+      "bytes": 6962
+    },
+    {
+      "source": ".codex/agents/portrait-artist.toml",
+      "file": "evidence/definitions/portrait-artist.toml",
+      "sha256": "97f644f95135975f6be4b135eb30d7751d7fc6987e5fca46c485671f0accbf36",
+      "bytes": 5553
+    },
+    {
+      "source": ".codex/agents/art-director.toml",
+      "file": "evidence/definitions/art-director.toml",
+      "sha256": "24bd98c7bdccefa3ef311e8ea3e936c15ef8a8f5eaeda4e680bde6f757ee1f04",
+      "bytes": 10987
+    },
+    {
+      "source": ".agents/skills/create-unit-assets/SKILL.md",
+      "file": "evidence/definitions/create-unit-assets.SKILL.txt",
+      "sha256": "576308d3ab2e53ccd259e084eea15619f932f0582ace42795d0c7e5e12a5907a",
+      "bytes": 6618
+    },
+    {
+      "source": ".agents/skills/create-ship-asset/SKILL.md",
+      "file": "evidence/definitions/create-ship-asset.SKILL.txt",
+      "sha256": "9386cb92d30745493785ddd0d91dc5a3d3b048e2289c947bd2f98fd563869ad1",
+      "bytes": 7459
+    },
+    {
+      "source": ".agents/skills/create-character-concept/SKILL.md",
+      "file": "evidence/definitions/create-character-concept.SKILL.txt",
+      "sha256": "68f9602273d848436d425a9c52a8e1a53cd80a2f771f39c2311ce68fef254367",
+      "bytes": 13926
+    },
+    {
+      "source": ".agents/skills/create-ship-multiview/SKILL.md",
+      "file": "evidence/definitions/create-ship-multiview.SKILL.txt",
+      "sha256": "7c178fcc6b5453d8f86c3157647ac35d5e9fc5df6ffe24f74acc49cbad2e8765",
+      "bytes": 9544
+    },
+    {
+      "source": ".agents/skills/create-monster-asset/SKILL.md",
+      "file": "evidence/definitions/create-monster-asset.SKILL.txt",
+      "sha256": "875289859c961b2318a340d61726a69dab00064f7f444d17f036d85dfaed6049",
+      "bytes": 5821
+    },
+    {
+      "source": ".agents/skills/create-officer-portrait/SKILL.md",
+      "file": "evidence/definitions/create-officer-portrait.SKILL.txt",
+      "sha256": "19444e377a95b583eb16aa2721e003384468c7188db5ab80cacd9c4f1d76fd46",
+      "bytes": 13223
+    },
+    {
+      "source": "_workspace/shared/agent-workflow.md",
+      "file": "evidence/definitions/agent-workflow.txt",
+      "sha256": "b845967355bc9aa10700581b45540966cd6247a56afcb9cc42a0afea2c046e2a",
+      "bytes": 19885
+    },
+    {
+      "source": "_workspace/AGENTS.md",
+      "file": "evidence/definitions/workspace-access.txt",
+      "sha256": "ed21c6912311a9ae6d6e9fe3bd9d5232935c0aaad325ec58c4965fa5ac0487ef",
+      "bytes": 7673
+    },
+    {
+      "source": ".agents/skills/create-ship-asset/references/model-stage.md",
+      "file": "evidence/definitions/model-stage.txt",
+      "sha256": "17ebca9912fdf54eea2f7a68d570f0e21b4b99893f283c9bb3130409add29ac7",
+      "bytes": 6036
+    },
+    {
+      "source": ".agents/skills/create-unit-assets/references/delivery.md",
+      "file": "evidence/definitions/delivery.txt",
+      "sha256": "3e7cc6e3f197537dffb3c5353307b632e40de8bd9aa13e60559174a0938dcfe9",
+      "bytes": 5515
+    },
+    {
+      "source": ".agents/skills/create-unit-assets/references/batch-state.md",
+      "file": "evidence/definitions/batch-state.txt",
+      "sha256": "000153430bd2a0d8cc158a76a951770686d922a583d7c3b662a3574916d443d5",
+      "bytes": 8207
+    },
+    {
+      "source": "_workspace/coordinator/portraits/kato-kiyomasa/v002/edit-target-v001.png",
+      "file": "examples/portrait/v001.png",
+      "sha256": "47e3a32fdd03f59c8006ea6c60e7e26fe65ea249b63c67e27ce123506d1a65c8",
+      "bytes": 2807133
+    },
+    {
+      "source": "_workspace/coordinator/portraits/kato-kiyomasa/v002/portrait.png",
+      "file": "examples/portrait/v002.png",
+      "sha256": "ba5f7168d171ee72484e1785556ce62e79153aadfb37f13a4281681bfd8b8df1",
+      "bytes": 2279264
+    },
+    {
+      "source": "_workspace/coordinator/portraits/kato-kiyomasa/v003/portrait.png",
+      "file": "examples/portrait/v003.png",
+      "sha256": "1f74682ef22aec5eadb6af139b350dd14b10542e881de083fa74219ba03bf886",
+      "bytes": 2543112
+    },
+    {
+      "source": "_workspace/coordinator/portraits/kato-kiyomasa/v002/manifest.json",
+      "file": "evidence/portrait/v002-manifest.json",
+      "sha256": "7328ddf5fd08993f86c04ba226142215fc7a749dd6fbf38913efcb48c2d81006",
+      "bytes": 2339
+    },
+    {
+      "source": "_workspace/coordinator/portraits/kato-kiyomasa/v002/handoff.json",
+      "file": "evidence/portrait/v002-handoff.json",
+      "sha256": "704738125cce36ce8ad82917b9e47e68e391c7ba2cfa0eefa8770ab40796c9c0",
+      "bytes": 996
+    },
+    {
+      "source": "_workspace/coordinator/portraits/kato-kiyomasa/v002/inputs-manifest.json",
+      "file": "evidence/portrait/v002-inputs-manifest.json",
+      "sha256": "df00b8c15216404953619bb4bcde46cc2b8d70391d8a2daf9590c83b36966209",
+      "bytes": 742
+    },
+    {
+      "source": "_workspace/coordinator/portraits/kato-kiyomasa/v002/brief.md",
+      "file": "evidence/portrait/v002-brief.md",
+      "sha256": "973496c46c56f4b8572687bfded0e17703f80ee2c887be941f004a1e45443eca",
+      "bytes": 1232
+    },
+    {
+      "source": "_workspace/coordinator/portraits/kato-kiyomasa/v002/prompts.md",
+      "file": "evidence/portrait/v002-prompts.md",
+      "sha256": "ba508e73e4dd58b56d10276fb2a98dc91e6774f297a8ef54833f406d26ba13f8",
+      "bytes": 1108
+    },
+    {
+      "source": "_workspace/coordinator/portraits/kato-kiyomasa/v002/review.md",
+      "file": "evidence/portrait/v002-review.md",
+      "sha256": "b36231a5aa7d2def544630f2dc8bf1ce9ee3aecea42f59adb762d96b2be225ed",
+      "bytes": 940
+    },
+    {
+      "source": "_workspace/coordinator/portraits/kato-kiyomasa/v003/review.md",
+      "file": "evidence/portrait/v003-review.md",
+      "sha256": "10ca50daf07e1716375b8a8955574830cc691931866d2368be5a5d470961c35c",
+      "bytes": 1827
+    },
+    {
+      "source": "_workspace/coordinator/portraits/kato-kiyomasa/v003/output.json",
+      "file": "evidence/portrait/v003-output.json",
+      "sha256": "d83e8b10e3412e6a626482dfaffb9917eccbf5215af5f5979a6ca8432fefae29",
+      "bytes": 564
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-player-concept-v003/character-concept-artist/concept.png",
+      "file": "examples/player/concept.png",
+      "sha256": "a650bcc8e2127f79cac77355d25306e53af760e7912a12767f02dd759da9b272",
+      "bytes": 1570307
+    },
+    {
+      "source": "_workspace/coordinator/final-assets/ships/player/v002/previews/quarter.png",
+      "file": "examples/player/model-preview.png",
+      "sha256": "effbefdb198f72b6950d65e2f0fe6cb53d692cf769765dc074a47e7bdacf0915",
+      "bytes": 97475
+    },
+    {
+      "source": "_workspace/coordinator/final-assets/ships/player/v002/player.glb",
+      "file": "examples/player/player.glb",
+      "sha256": "237924c14082748246f93be4b568ea2602afa1bfbfbe7d2902b9911c557e3796",
+      "bytes": 1692256
+    },
+    {
+      "source": "_workspace/coordinator/final-assets/ships/player/v002/report.md",
+      "file": "evidence/player/package-report.md",
+      "sha256": "30ddba5934acd2bcda6664ffceb209343909d0fa3cc44fc79df6a373efc621de",
+      "bytes": 2008
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-player-concept-review-v003/art-director/handoff.json",
+      "file": "evidence/player/concept-review-handoff.json",
+      "sha256": "8a15b5ebcffcb9137a71e07bd9950022ab63823eb11253bf2021c66b52b69660",
+      "bytes": 551
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-concept-v002/character-concept-artist/concept.png",
+      "file": "examples/scout/concept.png",
+      "sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+      "bytes": 1580128
+    },
+    {
+      "source": "_workspace/coordinator/final-assets/ships/scout/v002/previews/quarter.png",
+      "file": "examples/scout/model-preview.png",
+      "sha256": "30c58dcf37eaebc299355089eb6188bdfe4307524a96f1327343d6a3d3d2f79d",
+      "bytes": 57067
+    },
+    {
+      "source": "_workspace/coordinator/final-assets/ships/scout/v002/scout.glb",
+      "file": "examples/scout/scout.glb",
+      "sha256": "5d8ffbf81eaea965ff8911163c84868c9665beaaf5db8456e18cca5724fa29c5",
+      "bytes": 1732168
+    },
+    {
+      "source": "_workspace/coordinator/final-assets/ships/scout/v002/report.md",
+      "file": "evidence/scout/package-report.md",
+      "sha256": "0d8a149187db78ab49e8b5c78dd43b050afc28e5dfd50f87f8bb5f438184b437",
+      "bytes": 1993
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-concept-review-v002/art-director/handoff.json",
+      "file": "evidence/scout/concept-review-handoff.json",
+      "sha256": "983e179db077602fbda05cf3da7ab6e8aaf72bd421ff4fde028b961ddf95e5ea",
+      "bytes": 464
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-kraken-concept-v002/monster-concept-artist/concept.png",
+      "file": "examples/kraken/concept.png",
+      "sha256": "584173b050afae0975336c132cb6358599002926f19af18e14e55923f5d7aef5",
+      "bytes": 1520331
+    },
+    {
+      "source": "_workspace/coordinator/final-assets/monsters/kraken/v003/previews/quarter.png",
+      "file": "examples/kraken/model-preview.png",
+      "sha256": "ff3715ec66f61d99007e58a92df212a8d04fa6f08779be9e66fdb352ca3a31ad",
+      "bytes": 92219
+    },
+    {
+      "source": "_workspace/coordinator/final-assets/monsters/kraken/v003/kraken.glb",
+      "file": "examples/kraken/kraken.glb",
+      "sha256": "1c826bad3ee4f66eaf9dae702fd245617f172fd2c9902d52374c434651742bc5",
+      "bytes": 1304268
+    },
+    {
+      "source": "_workspace/coordinator/final-assets/monsters/kraken/v003/report.md",
+      "file": "evidence/kraken/package-report.md",
+      "sha256": "c78dafa5382ccbd6471b42ff626761eb170487b7878925edec670278f4ccc980",
+      "bytes": 2228
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-kraken-concept-review-v002/art-director/handoff.json",
+      "file": "evidence/kraken/concept-review-handoff.json",
+      "sha256": "12f8212cfbd2c69224d7a37c580253b6cf981f58525b8be5640ffdc51b431b6a",
+      "bytes": 613
+    },
+    {
+      "source": ".codex/agents/character-concept-artist.toml",
+      "file": "crew/.codex/agents/character-concept-artist.toml",
+      "sha256": "76b7c0325fd0377f233ee2573e9f0f3e996ba286c80638ac2b2abee15eedb39d",
+      "bytes": 8526
+    },
+    {
+      "source": ".codex/agents/monster-concept-artist.toml",
+      "file": "crew/.codex/agents/monster-concept-artist.toml",
+      "sha256": "00b65e607dce76331ff8c78cca81e51ddeed07d9f86597e092dc1fd16668fbc7",
+      "bytes": 5170
+    },
+    {
+      "source": ".codex/agents/environment-concept-artist.toml",
+      "file": "crew/.codex/agents/environment-concept-artist.toml",
+      "sha256": "05dea147cb21383058c2fe4dfa1eb524eb73e8887fc51f4a69a7b5a8ce2ca6b9",
+      "bytes": 6962
+    },
+    {
+      "source": ".codex/agents/portrait-artist.toml",
+      "file": "crew/.codex/agents/portrait-artist.toml",
+      "sha256": "97f644f95135975f6be4b135eb30d7751d7fc6987e5fca46c485671f0accbf36",
+      "bytes": 5553
+    },
+    {
+      "source": ".codex/agents/art-director.toml",
+      "file": "crew/.codex/agents/art-director.toml",
+      "sha256": "24bd98c7bdccefa3ef311e8ea3e936c15ef8a8f5eaeda4e680bde6f757ee1f04",
+      "bytes": 10987
+    },
+    {
+      "source": ".agents/skills/create-character-concept/SKILL.md",
+      "file": "crew/.agents/skills/create-character-concept/SKILL.md",
+      "sha256": "68f9602273d848436d425a9c52a8e1a53cd80a2f771f39c2311ce68fef254367",
+      "bytes": 13926
+    },
+    {
+      "source": ".agents/skills/create-ship-asset/SKILL.md",
+      "file": "crew/.agents/skills/create-ship-asset/SKILL.md",
+      "sha256": "9386cb92d30745493785ddd0d91dc5a3d3b048e2289c947bd2f98fd563869ad1",
+      "bytes": 7459
+    },
+    {
+      "source": ".agents/skills/create-ship-asset/references/model-stage.md",
+      "file": "crew/.agents/skills/create-ship-asset/references/model-stage.md",
+      "sha256": "17ebca9912fdf54eea2f7a68d570f0e21b4b99893f283c9bb3130409add29ac7",
+      "bytes": 6036
+    },
+    {
+      "source": ".agents/skills/create-ship-multiview/SKILL.md",
+      "file": "crew/.agents/skills/create-ship-multiview/SKILL.md",
+      "sha256": "7c178fcc6b5453d8f86c3157647ac35d5e9fc5df6ffe24f74acc49cbad2e8765",
+      "bytes": 9544
+    },
+    {
+      "source": ".agents/skills/create-monster-asset/SKILL.md",
+      "file": "crew/.agents/skills/create-monster-asset/SKILL.md",
+      "sha256": "875289859c961b2318a340d61726a69dab00064f7f444d17f036d85dfaed6049",
+      "bytes": 5821
+    },
+    {
+      "source": ".agents/skills/create-monster-asset/references/concept-multiview.md",
+      "file": "crew/.agents/skills/create-monster-asset/references/concept-multiview.md",
+      "sha256": "3364fad7bdd50005e1c2ed0aaf4e68564ae2556dca78203705655899c11cac89",
+      "bytes": 6145
+    },
+    {
+      "source": ".agents/skills/create-unit-assets/SKILL.md",
+      "file": "crew/.agents/skills/create-unit-assets/SKILL.md",
+      "sha256": "576308d3ab2e53ccd259e084eea15619f932f0582ace42795d0c7e5e12a5907a",
+      "bytes": 6618
+    },
+    {
+      "source": ".agents/skills/create-unit-assets/references/batch-state.md",
+      "file": "crew/.agents/skills/create-unit-assets/references/batch-state.md",
+      "sha256": "000153430bd2a0d8cc158a76a951770686d922a583d7c3b662a3574916d443d5",
+      "bytes": 8207
+    },
+    {
+      "source": ".agents/skills/create-unit-assets/references/catalog.json",
+      "file": "crew/.agents/skills/create-unit-assets/references/catalog.json",
+      "sha256": "008e1b03cd3845ef80a68ef55d8a5702a685df66cb48f25e2e5f25541be8a58a",
+      "bytes": 12541
+    },
+    {
+      "source": ".agents/skills/create-unit-assets/references/catalog.md",
+      "file": "crew/.agents/skills/create-unit-assets/references/catalog.md",
+      "sha256": "97bf647c9c8fd2143a1757c51c61dc8953bcfce623dedb5b05aea4b378b08c48",
+      "bytes": 3333
+    },
+    {
+      "source": ".agents/skills/create-unit-assets/references/delivery.md",
+      "file": "crew/.agents/skills/create-unit-assets/references/delivery.md",
+      "sha256": "3e7cc6e3f197537dffb3c5353307b632e40de8bd9aa13e60559174a0938dcfe9",
+      "bytes": 5515
+    },
+    {
+      "source": ".agents/skills/create-officer-portrait/SKILL.md",
+      "file": "crew/.agents/skills/create-officer-portrait/SKILL.md",
+      "sha256": "19444e377a95b583eb16aa2721e003384468c7188db5ab80cacd9c4f1d76fd46",
+      "bytes": 13223
+    },
+    {
+      "source": ".agents/skills/create-officer-portrait/agents/openai.yaml",
+      "file": "crew/.agents/skills/create-officer-portrait/agents/openai.yaml",
+      "sha256": "2c28e44bd7111142f2a17f831641fab045987c92fa6360ec49ee5e2cf5b9907b",
+      "bytes": 373
+    },
+    {
+      "source": ".agents/skills/create-officer-portrait/references/prompt-template.md",
+      "file": "crew/.agents/skills/create-officer-portrait/references/prompt-template.md",
+      "sha256": "d10956b2f00531e92e00e6347eb4f65ad2f85137ee8c6595be7203d811d939fa",
+      "bytes": 2329
+    },
+    {
+      "source": ".agents/skills/create-officer-portrait/references/style-guide.md",
+      "file": "crew/.agents/skills/create-officer-portrait/references/style-guide.md",
+      "sha256": "84a009adb38567126be84df7c7e4ce09b9638972276b20b64dc6c2bc869258dd",
+      "bytes": 6239
+    },
+    {
+      "source": "_workspace/AGENTS.md",
+      "file": "crew/_workspace/AGENTS.md",
+      "sha256": "ed21c6912311a9ae6d6e9fe3bd9d5232935c0aaad325ec58c4965fa5ac0487ef",
+      "bytes": 7673
+    },
+    {
+      "source": "_workspace/shared/agent-workflow.md",
+      "file": "crew/_workspace/shared/agent-workflow.md",
+      "sha256": "b845967355bc9aa10700581b45540966cd6247a56afcb9cc42a0afea2c046e2a",
+      "bytes": 19885
+    },
+    {
+      "source": "_workspace/shared/prompts/character-concept.md",
+      "file": "crew/_workspace/shared/prompts/character-concept.md",
+      "sha256": "732e97ed40ab44b32fdca7652a87ecc9b99a8a7d94e143ffc07c3afad338c62c",
+      "bytes": 2961
+    },
+    {
+      "source": "_workspace/shared/style/README.md",
+      "file": "crew/_workspace/shared/style/README.md",
+      "sha256": "c524035d9c24b5890aca206d7817c13fd4c0509294a920bd98d744377f8a79c2",
+      "bytes": 2680
+    },
+    {
+      "source": "_workspace/shared/style/source/wanderburg_style_ref.png",
+      "file": "crew/_workspace/shared/style/source/wanderburg_style_ref.png",
+      "sha256": "24023d939f647137904f7b8c135a09a893401f6a30953bbb0e213ee75eeea481",
+      "bytes": 173422
+    },
+    {
+      "source": "_workspace/coordinator/inbox/fleet-001-inputs-v001/scout/scout-v1.png",
+      "file": "crew/_workspace/shared/references/ships/scout/design-reference.png",
+      "sha256": "d02c94c375ce99c08059ef5f6b55919661209e26ca99ddbdc0e49112aad36fb5",
+      "bytes": 1703092
+    },
+    {
+      "source": "_workspace/coordinator/ships/scout/pipeline.json",
+      "file": "evidence/scout/original-pipeline.json",
+      "sha256": "5c75afc204149315a6f7b2bba7f255d657cbad4c396140b44a7b62203b1f87c4",
+      "bytes": 47522
+    },
+    {
+      "source": "_workspace/coordinator/portraits/kato-kiyomasa/delivery.md",
+      "file": "evidence/portrait/coordinator-delivery.md",
+      "sha256": "5b298183c69181a3275bab9bbc590b2e3ee09bc7ba7f14b46a707d2f856ee734",
+      "bytes": 655
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-concept-v002/character-concept-artist/attempt.json",
+      "file": "evidence/scout/handoffs/fleet-001-scout-concept-v002/character-concept-artist/attempt.json",
+      "sha256": "6dad5efae41d562737a81e51b6224213dab75fee0d72ed40e4963c84faecd83a",
+      "bytes": 997
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-concept-v002/character-concept-artist/concept.png",
+      "file": "evidence/scout/handoffs/fleet-001-scout-concept-v002/character-concept-artist/concept.png",
+      "sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+      "bytes": 1580128
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-concept-v002/character-concept-artist/handoff.json",
+      "file": "evidence/scout/handoffs/fleet-001-scout-concept-v002/character-concept-artist/handoff.json",
+      "sha256": "eced9f80fdef3ef78d32a052c6a4481efef2e34beebc4a7432ea54b935642614",
+      "bytes": 903
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-concept-v002/character-concept-artist/review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-concept-v002/character-concept-artist/review.md",
+      "sha256": "6387493bdf706a099b2dea5a2cb5098cec4a1196a7be30c1bb001361da163987",
+      "bytes": 712
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-concept-v002/character-concept-artist/submitted-prompt.txt",
+      "file": "evidence/scout/handoffs/fleet-001-scout-concept-v002/character-concept-artist/submitted-prompt.txt",
+      "sha256": "6de5c0355da577f75368f0cedc312698b81b1b15f94e2954d96b427553d53e49",
+      "bytes": 1589
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-concept-v002-generated/coordinator/concept.png",
+      "file": "evidence/scout/handoffs/fleet-001-scout-concept-v002-generated/coordinator/concept.png",
+      "sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+      "bytes": 1580128
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-concept-v002-generated/coordinator/handoff.json",
+      "file": "evidence/scout/handoffs/fleet-001-scout-concept-v002-generated/coordinator/handoff.json",
+      "sha256": "f9b653d1965d288c11be6daa086e33b9a2fba9165aec8049d4802a4add7c7691",
+      "bytes": 1088
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-concept-review-v002/art-director/concept-review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-concept-review-v002/art-director/concept-review.md",
+      "sha256": "fb551b32bbb41c00f5654be60e3691e82c3d01d0fa0e9668511b96112c1c473f",
+      "bytes": 2470
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-concept-review-v002/art-director/handoff.json",
+      "file": "evidence/scout/handoffs/fleet-001-scout-concept-review-v002/art-director/handoff.json",
+      "sha256": "983e179db077602fbda05cf3da7ab6e8aaf72bd421ff4fde028b961ddf95e5ea",
+      "bytes": 464
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/back-attempt.json",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/back-attempt.json",
+      "sha256": "d12e991afdb4e941e913ecbd1a3c486ec366606c3fd851d6ed2990ad0ea7824c",
+      "bytes": 839
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/back-director-review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/back-director-review.md",
+      "sha256": "97ae9e6544a6e7d50362aba473eda859cbd4a69ba5d00b179d1411cc9e52c9fa",
+      "bytes": 1362
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/back-prompt.txt",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/back-prompt.txt",
+      "sha256": "1c6865e17dab2168ac72095bdbbf3ebad60d73ed0be69aacec516f9c1c5a6c67",
+      "bytes": 1886
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/back-review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/back-review.md",
+      "sha256": "fe250e6ca2aa15a810026ba7d14a1fd1981101fb039fb09b35785429e7c906ce",
+      "bytes": 1226
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/back.png",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/back.png",
+      "sha256": "6913085dca6e650bc38bf486568db498ca99af45cd9c24a90e6a926b131085cb",
+      "bytes": 1744738
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/brief.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/brief.md",
+      "sha256": "772c8476c924664fd256d97ede87e2ef736d0f72ecc30ee997a9a49970b7cd0d",
+      "bytes": 1043
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/concept-director-review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/concept-director-review.md",
+      "sha256": "fb551b32bbb41c00f5654be60e3691e82c3d01d0fa0e9668511b96112c1c473f",
+      "bytes": 2470
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/concept-reference.png",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/concept-reference.png",
+      "sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+      "bytes": 1580128
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/director-set-review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/director-set-review.md",
+      "sha256": "fbf880f59152b8360fe8e8f5b8c762f96dafc5ba478621151aee2bf3c51dd71d",
+      "bytes": 3960
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/front-attempt.json",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/front-attempt.json",
+      "sha256": "997f4ac156d0089ebe9592c16f078d0a59787c9ce0b8c2952dbe3df537d43ad9",
+      "bytes": 840
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/front-director-review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/front-director-review.md",
+      "sha256": "abca22a52e99e2bccd943fb0e8d8156111f8079d1beed5da38acdde40c38b1e9",
+      "bytes": 1505
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/front-prompt.txt",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/front-prompt.txt",
+      "sha256": "c6a16867696f49dade7b3a8132bb0a9a2e7eeb69b56bd8108c49a7505bdca29d",
+      "bytes": 1692
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/front-review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/front-review.md",
+      "sha256": "7afa0327f437f8569b2c7995c94089bf81a4a6b5786d07f7a2b48586734c87da",
+      "bytes": 1125
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/front.png",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/front.png",
+      "sha256": "5c55c48cf8bd54f7ae9910e79b766d178748e54323d887577cf9f5031e955d0b",
+      "bytes": 1686135
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/handoff.json",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/handoff.json",
+      "sha256": "6e1f948c60f894622eab1524567e667ae250b609ca971f0c07e9a8d466e71261",
+      "bytes": 4555
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/left-attempt.json",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/left-attempt.json",
+      "sha256": "d62f42a9100450329b2f2a062f4ebcf601216728a65cb28c7dd9c8ac2427fcef",
+      "bytes": 839
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/left-director-review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/left-director-review.md",
+      "sha256": "17bba9e7c6a2f1f0ecd7c2d00fe2f130c70be440bb1b33ab20cee313c59b6197",
+      "bytes": 1241
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/left-prompt.txt",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/left-prompt.txt",
+      "sha256": "848f87b9af066865e4849fc8707161af9857c5526ca3ba2cdc58adc3222b1c9d",
+      "bytes": 1820
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/left-review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/left-review.md",
+      "sha256": "24d0798cda01992e0737bda708041212f65bdd86aed48a7fd5b966e62ebe4d1b",
+      "bytes": 1164
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/left.png",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/left.png",
+      "sha256": "891e9dd988b262c4c1df044a7f78ec9b6fa106360b1372c44043a6e60396bc0e",
+      "bytes": 1448874
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/manifest.json",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/manifest.json",
+      "sha256": "44ebcd6f7ae45f666e9e86f2f599ece489317362045614269129b51ea667dadb",
+      "bytes": 3647
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/prompts.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/prompts.md",
+      "sha256": "cf9eaf6b60d376378ff29bdbceecadead1f27b3978d74d36018911d22cbbb68d",
+      "bytes": 7382
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/review.md",
+      "sha256": "dcc39fee076b9e9562061fec70fb8368d017cb9d89ab8510bcaa3919c9304901",
+      "bytes": 1974
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/right-attempt.json",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/right-attempt.json",
+      "sha256": "9ab42374e840be25f9f837071b047254f2378b78febf688afc3e03a496b92130",
+      "bytes": 840
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/right-director-review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/right-director-review.md",
+      "sha256": "189887fd769700b2b2a4223e7a6148a640aa6ae9402e1eae80e98e56903c14a3",
+      "bytes": 1303
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/right-prompt.txt",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/right-prompt.txt",
+      "sha256": "5f4cc44b8e3daccdeb0148fa3add20879a81f870f49da0c9894df4e0a9d155fe",
+      "bytes": 1871
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/right-review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/right-review.md",
+      "sha256": "0f1e6c8ba9a48ce774638d5beff4bb34e60ed62a404a7246f7993e3a5907ee86",
+      "bytes": 1108
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-v001-approved/character-concept-artist/right.png",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-v001-approved/character-concept-artist/right.png",
+      "sha256": "4ac356e85c2dca18ee885169b69030a7c1344146a8780b0e26228275c31c7f6c",
+      "bytes": 1605258
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-review-v001-set/art-director/handoff.json",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-review-v001-set/art-director/handoff.json",
+      "sha256": "58dc7902e095e73d600b19f2e8e8cc2500fa9c446089434cfb08bcc65853853b",
+      "bytes": 968
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-multiview-review-v001-set/art-director/multiview-set-review.md",
+      "file": "evidence/scout/handoffs/fleet-001-scout-multiview-review-v001-set/art-director/multiview-set-review.md",
+      "sha256": "fbf880f59152b8360fe8e8f5b8c762f96dafc5ba478621151aee2bf3c51dd71d",
+      "bytes": 3960
+    },
+    {
+      "source": "_workspace/coordinator/final-assets/ships/scout/v002/evidence/review.md",
+      "file": "evidence/scout/model-review.md",
+      "sha256": "1b7a582827e18b977f6e763db256d4aa2e181aa9ddd8f47643f6548c2b43edff",
+      "bytes": 1619
+    },
+    {
+      "source": "_workspace/coordinator/final-assets/ships/scout/v002/evidence/director-handoff.json",
+      "file": "evidence/scout/model-director-handoff.json",
+      "sha256": "f43d7888cff0eaaec15a2a396aa2cdda1c5ed337362d37be19c1b4a22425e7c8",
+      "bytes": 1115
+    },
+    {
+      "source": "_workspace/shared/review-inputs/fleet-001-scout-package-v002/coordinator/handoff.json",
+      "file": "evidence/scout/package-coordinator-handoff.json",
+      "sha256": "9a561a7908edc1c9584016c1f45904aff40c794770d9440ba9f05953a031f113",
+      "bytes": 3326
+    }
+  ],
+  "diagrams": [
+    {
+      "source": "diagrams/01-agent-hierarchy.mmd",
+      "sha256": "470aa020b5f0789f746350df356ca4ab264196e62d4d0b0cc26e92e90b3b2aed"
+    },
+    {
+      "source": "diagrams/02-skills-dependencies.mmd",
+      "sha256": "5218d5a1065243bee515b9b1bd5331390828aa560684e9c8fc77e25a483734cd"
+    },
+    {
+      "source": "diagrams/03-ship-monster-sequence.mmd",
+      "sha256": "2dce85248931fc6494a399e840d2fbe7090e68936b4a267e6c823f3e3b80e64c"
+    },
+    {
+      "source": "diagrams/04-portrait-sequence.mmd",
+      "sha256": "f411a464cbc22c3b6f8eb1b81a8f05edcb803b988925e95897d0a19f60406672"
+    },
+    {
+      "source": "diagrams/05-shared-context.mmd",
+      "sha256": "28ad26a599087441ffcfebd247f5fae2b1745e5cd189d7a1c6a4100eec7ef370"
+    },
+    {
+      "source": "diagrams/06-review-lifecycle.mmd",
+      "sha256": "a10893d8cf98a12f55c1a1e70a692b0901262aa363b7be5f7bb572c62add91d4"
+    },
+    {
+      "source": "diagrams/07-production-evidence.mmd",
+      "sha256": "0aa00d67de87061b2e05ee61c05e1c0c33914b53b619e7b4f0bfbee6c1f7d2c4"
+    }
+  ]
+}

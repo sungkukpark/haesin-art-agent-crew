@@ -1,0 +1,23 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.godot/
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# Keep the supplied inputs; ignore outputs from future production runs.
+crew/_workspace/coordinator/*
+!crew/_workspace/coordinator/.gitkeep
+crew/_workspace/character-concept-artist/*
+!crew/_workspace/character-concept-artist/.gitkeep
+crew/_workspace/monster-concept-artist/*
+!crew/_workspace/monster-concept-artist/.gitkeep
+crew/_workspace/environment-concept-artist/*
+!crew/_workspace/environment-concept-artist/.gitkeep
+crew/_workspace/portrait-artist/*
+!crew/_workspace/portrait-artist/.gitkeep
+crew/_workspace/art-director/*
+!crew/_workspace/art-director/.gitkeep
+crew/_workspace/shared/review-inputs/

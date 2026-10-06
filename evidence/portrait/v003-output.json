@@ -1,0 +1,35 @@
+{
+  "version": "v003",
+  "sha256": "1f74682ef22aec5eadb6af139b350dd14b10542e881de083fa74219ba03bf886",
+  "width": 1024,
+  "height": 1536,
+  "format": "PNG",
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "alpha_bbox": [
+    72,
+    10,
+    944,
+    1536
+  ],
+  "visible_bbox_alpha8": [
+    111,
+    12,
+    939,
+    1536
+  ],
+  "alpha_nonzero_pixels": 824656,
+  "alpha_opaque_pixels": 0,
+  "face_crop_xywh": [
+    460,
+    388,
+    310,
+    310
+  ],
+  "target_met": false,
+  "model": "unknown",
+  "seed": "unknown"
+}

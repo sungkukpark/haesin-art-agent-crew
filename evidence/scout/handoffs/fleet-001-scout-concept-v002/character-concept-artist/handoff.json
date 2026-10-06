@@ -1,0 +1,29 @@
+{
+  "batch_id": "fleet-001",
+  "asset_id": "scout",
+  "stage": "concept",
+  "version": "v002",
+  "status": "candidate",
+  "attempt": 2,
+  "subject_sha256": "d02c94c375ce99c08059ef5f6b55919661209e26ca99ddbdc0e49112aad36fb5",
+  "style_sha256": "24023d939f647137904f7b8c135a09a893401f6a30953bbb0e213ee75eeea481",
+  "user_override_exact_counts": true,
+  "files": [
+    {
+      "path": "concept.png",
+      "sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf"
+    },
+    {
+      "path": "submitted-prompt.txt",
+      "sha256": "6de5c0355da577f75368f0cedc312698b81b1b15f94e2954d96b427553d53e49"
+    },
+    {
+      "path": "attempt.json",
+      "sha256": "6dad5efae41d562737a81e51b6224213dab75fee0d72ed40e4963c84faecd83a"
+    },
+    {
+      "path": "review.md",
+      "sha256": "6387493bdf706a099b2dea5a2cb5098cec4a1196a7be30c1bb001361da163987"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "batch_id": "fleet-001",
+  "asset_id": "kraken",
+  "stage": "concept",
+  "version": "v002",
+  "publisher_role": "art-director",
+  "verdict": "approved_for_next_stage",
+  "candidate_sha256": "584173b050afae0975336c132cb6358599002926f19af18e14e55923f5d7aef5",
+  "required_changes": [],
+  "limitations": [
+    "투명알파/흐린접지음영잔존, 불투명배경요청은미충족",
+    "그림자는배경이며해부구조가아님"
+  ],
+  "files": [
+    {
+      "path": "concept-review.md",
+      "sha256": "f58af90d469381dbc2d73670318e7c6a97d8be84e4580fa0e07d2b6479bd0f65"
+    }
+  ]
+}

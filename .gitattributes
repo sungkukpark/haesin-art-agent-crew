@@ -1,0 +1,2 @@
+# Preserve byte-identical source snapshots and their recorded SHA-256 values.
+* -text

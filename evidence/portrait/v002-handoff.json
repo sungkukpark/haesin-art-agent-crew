@@ -1,0 +1,34 @@
+{
+  "asset_id": "mounted-officer",
+  "version": "v002",
+  "files": [
+    {
+      "path": "manifest.json",
+      "sha256": "7328ddf5fd08993f86c04ba226142215fc7a749dd6fbf38913efcb48c2d81006"
+    },
+    {
+      "path": "brief.md",
+      "sha256": "973496c46c56f4b8572687bfded0e17703f80ee2c887be941f004a1e45443eca"
+    },
+    {
+      "path": "portrait.png",
+      "sha256": "ba5f7168d171ee72484e1785556ce62e79153aadfb37f13a4281681bfd8b8df1"
+    },
+    {
+      "path": "review.md",
+      "sha256": "b36231a5aa7d2def544630f2dc8bf1ce9ee3aecea42f59adb762d96b2be225ed"
+    },
+    {
+      "path": "prompts.md",
+      "sha256": "ba508e73e4dd58b56d10276fb2a98dc91e6774f297a8ef54833f406d26ba13f8"
+    },
+    {
+      "path": "inputs-manifest.json",
+      "sha256": "df00b8c15216404953619bb4bcde46cc2b8d70391d8a2daf9590c83b36966209"
+    },
+    {
+      "path": "edit-target-v001.png",
+      "sha256": "47e3a32fdd03f59c8006ea6c60e7e26fe65ea249b63c67e27ce123506d1a65c8"
+    }
+  ]
+}

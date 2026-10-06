@@ -1,0 +1,29 @@
+{
+  "batch_id": "fleet-001",
+  "asset_id": "scout",
+  "stage": "model",
+  "version": "v002",
+  "publisher_role": "art-director",
+  "reviewer_id": "/root/art_director",
+  "reviewed_at_utc": "2026-09-22T16:26:24.8412744Z",
+  "model_sha256": "5d8ffbf81eaea965ff8911163c84868c9665beaaf5db8456e18cca5724fa29c5",
+  "verdict": "approved_for_next_stage",
+  "mandatory_changes": [],
+  "review_kind": "additional_render_evidence",
+  "model_unchanged": true,
+  "previous_review": "fleet-001-scout-model-review-v001/art-director/handoff.json",
+  "previous_verdict_preserved": "approved_for_next_stage",
+  "reviewed_render_count": 12,
+  "verified_input_files": 22,
+  "publication_note": "fleet-001-scout-model-review-v002 게시의 handoff 직렬화 오류로 새 불변 게시 ID 사용. 검수 본문/판정 변경 없음.",
+  "files": [
+    {
+      "path": "review.md",
+      "sha256": "1b7a582827e18b977f6e763db256d4aa2e181aa9ddd8f47643f6548c2b43edff"
+    },
+    {
+      "path": "input-evidence.json",
+      "sha256": "fea87132e62990b0e7bd1b271b99e99fae3fcafbb7c98a3435ff4b5793f62588"
+    }
+  ]
+}

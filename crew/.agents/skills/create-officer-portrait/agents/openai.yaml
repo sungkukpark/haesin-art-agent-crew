@@ -1,0 +1,4 @@
+interface:
+  display_name: "제독·무장 portrait 제작"
+  short_description: "사진과 스타일 참조로 UI·필살기 공용 인물 초상 제작·검수"
+  default_prompt: "$create-officer-portrait로 원본 사진 한 장과 스타일 참조 한 장을 사용해 UI·필살기 공용 투명 상반신 초상을 만들고 디렉터 검수까지 진행해줘."

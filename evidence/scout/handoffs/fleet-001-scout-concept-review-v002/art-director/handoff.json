@@ -1,0 +1,16 @@
+{
+  "batch_id": "fleet-001",
+  "asset_id": "scout",
+  "stage": "concept",
+  "version": "v002",
+  "publisher_role": "art-director",
+  "verdict": "approved_for_next_stage",
+  "candidate_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+  "user_override_exact_counts": true,
+  "files": [
+    {
+      "path": "concept-review.md",
+      "sha256": "fb551b32bbb41c00f5654be60e3691e82c3d01d0fa0e9668511b96112c1c473f"
+    }
+  ]
+}

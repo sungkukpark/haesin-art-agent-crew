@@ -1,0 +1,24 @@
+{
+  "batch_id": "fleet-001",
+  "asset_id": "scout",
+  "stage": "multiview",
+  "set_version": "v001",
+  "direction": "left",
+  "round": 1,
+  "stage_call": 2,
+  "stage_limit": 12,
+  "status": "generated_imported",
+  "concept_version": "v002",
+  "concept_sha256": "fd0e57a477daa770e2ab44c81f854a636a6be592e333e1d8f4b94bb31deec3bf",
+  "reported_model": "unknown",
+  "seed": "unknown",
+  "actual_cost": null,
+  "cost_status": "unknown_tool_not_reported",
+  "tool": "image_gen.imagegen",
+  "tool_returned_path": "C:\\Users\\sungkukpark\\AppData\\Roaming\\orca\\codex-runtime-home\\home\\generated_images\\01a0c8d2-3e21-7391-9ae4-e390a0cf8558\\exec-c0ca87cf-3e8f-4b38-8334-5397ae5b70f0.png",
+  "output_sha256": "891e9dd988b262c4c1df044a7f78ec9b6fa106360b1372c44043a6e60396bc0e",
+  "dimensions": [
+    1536,
+    1024
+  ]
+}

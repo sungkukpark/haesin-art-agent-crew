@@ -1,0 +1,25 @@
+flowchart TB
+    R["User request + end_stage"] --> B["create-unit-assets
+Batch or static game package"]
+    R --> S["create-ship-asset
+Single ship through model"]
+    R --> M["create-monster-asset
+Creature-specific workflow"]
+    R --> P["create-officer-portrait"]
+    B -->|"Ship IDs"| S
+    B -->|"Creature IDs"| M
+    S --> SC["create-character-concept"]
+    SC -->|"Approved or explicitly selected input; multiview requested"| SV["create-ship-multiview"]
+    SV -->|"Approved four-view set; modeling requested"| MD["Common model-stage contract
+Coordinator + Tripo + director review"]
+    M --> MC["Monster concept + four views
+monster-concept-artist"]
+    MC -->|"Approved set; modeling requested"| MD
+    MD -->|"Package requested"| PK["Static delivery contract
+GLB + wrapper + Godot validation"]
+    P --> PR["PNG portrait + review records
+portrait-artist + art-director"]
+    E["Environment request"] --> ER["environment-concept-artist
+Role instructions + common workflow"]
+    N["Shorter end_stage stops at concept, multiview or model"]
+    R -.-> N

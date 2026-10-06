@@ -1,0 +1,96 @@
+{
+  "asset_id": "mounted-officer",
+  "kind": "officer_portrait",
+  "role": "portrait-artist",
+  "date": "2026-10-03",
+  "subject_reference": {
+    "source": "사용자최신첨부1",
+    "storage_status": "not_saved",
+    "sha256": null
+  },
+  "style_reference": {
+    "source": "사용자최신첨부2",
+    "storage_status": "not_saved",
+    "sha256": null
+  },
+  "additional_prompt": null,
+  "target": [
+    2048,
+    3072
+  ],
+  "versions": [
+    {
+      "version": "v001",
+      "sha256": "47e3a32fdd03f59c8006ea6c60e7e26fe65ea249b63c67e27ce123506d1a65c8",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_bbox": [
+        0,
+        10,
+        1024,
+        1536
+      ],
+      "visible_bbox_ge8": [
+        0,
+        13,
+        1024,
+        1536
+      ],
+      "target_met": false,
+      "input_files_saved": false,
+      "input_hashes": "unknown",
+      "model": "unknown",
+      "seed": "unknown",
+      "prompt": "v001/prompts.md",
+      "review": "v001/review.md",
+      "inputs": "v001/inputs/manifest.json",
+      "verdict": "changes_requested"
+    },
+    {
+      "version": "v002",
+      "sha256": "ba5f7168d171ee72484e1785556ce62e79153aadfb37f13a4281681bfd8b8df1",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "alpha_bbox": [
+        65,
+        36,
+        918,
+        1424
+      ],
+      "visible_bbox_ge8": [
+        126,
+        137,
+        916,
+        1415
+      ],
+      "target_met": false,
+      "input_files_saved": false,
+      "input_hashes": "unknown",
+      "model": "unknown",
+      "seed": "unknown",
+      "prompt": "v002/prompts.md",
+      "review": "v002/review.md",
+      "inputs": "v002/inputs/manifest.json",
+      "verdict": "approved_for_next_stage"
+    }
+  ],
+  "generation_calls_used": 2,
+  "generation_call_limit": 3,
+  "director_agent": "/root/new_officer_portrait/mounted_direction",
+  "run_status": "approved_for_next_stage",
+  "art_status": "approved_for_next_stage",
+  "technical_target_met": false,
+  "user_selection": "pending",
+  "runtime_integration": "not_requested",
+  "mode": "독립 저장소 모드로 수행"
+}

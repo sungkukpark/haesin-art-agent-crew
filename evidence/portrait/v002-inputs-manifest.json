@@ -1,0 +1,24 @@
+{
+  "inputs": [
+    {
+      "role": "subject_reference",
+      "storage_status": "not_saved",
+      "sha256": null,
+      "source": "사용자 실제 첨부 컨텍스트"
+    },
+    {
+      "role": "style_reference",
+      "storage_status": "not_saved",
+      "sha256": null,
+      "source": "사용자 실제 첨부 컨텍스트"
+    },
+    {
+      "role": "previous_result",
+      "path": "edit-target-v001.png",
+      "sha256": "47e3a32fdd03f59c8006ea6c60e7e26fe65ea249b63c67e27ce123506d1a65c8",
+      "storage_status": "saved"
+    }
+  ],
+  "mechanism": "referenced_image_paths=[v001/portrait.png]",
+  "lineage": "v001→v002; 원본/스타일은브리프기준이며이번호출실제이미지입력은v001한장"
+}
